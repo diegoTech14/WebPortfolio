@@ -1,0 +1,128 @@
+#project,
+#experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#projects h1 {
+    margin-bottom: 25px;
+}
+
+#projects p {
+    margin-bottom: 25px;
+}
+
+#project div img {
+    height: 450px;
+    width: 900px;
+}
+
+#experience #expImg {
+    width: 900px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.pDesc {
+    width: 380px;
+}
+
+#project {
+    margin-bottom: 150px;
+}
+
+#experience #imgDiv {
+    margin-right: 80px;
+}
+
+#hyperlinkWeb {
+    text-decoration: none;
+    color: #636363;
+}
+
+@media (min-width:320px) and (max-width:380px) {
+    #titleProjects {
+        margin-top: 100px;
+    }
+
+
+    #project {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #project {
+        margin-bottom: 50px;
+    }
+
+    #subTitleProjects {
+        width: 280px;
+    }
+
+    .pDesc {
+        width: 280px;
+    }
+
+    #project div img {
+        width: 300px;
+        height: 150px;
+    }
+
+    #experience {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #experience #expImg {
+        width: 300px;
+        height: 200px;
+    }
+
+    #experience #imgDiv {
+        margin: 40px 0px 20px 0px;
+    }
+}
+
+@media (min-width:380px) and (max-width: 768px) {
+
+    #project {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #project div img {
+        width: 700px;
+        height: 400px;
+    }
+
+    #experience {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #experience #expImg {
+        width: 600px;
+        height: 500px;
+    }
+
+    #experience #imgDiv {
+        margin: 40px 0px 20px 0px;
+    }
+
+}

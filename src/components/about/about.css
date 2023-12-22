@@ -1,0 +1,51 @@
+.about-me{
+    width:700px;
+    margin-right:80px;
+    font-size:18px;
+}
+
+.skills{
+    margin-left:80px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about a{
+    text-decoration: none;
+    color: #636363;
+    font-weight: bold;
+}
+
+
+@media (min-width:320px) and (max-width:380px){
+
+    .about-me{
+        margin-right:0px;
+        width: 300px;
+    }
+
+    .skills{
+        margin-left:0px;
+        margin:50px 0px 50px 0px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #about{
+        height:auto;
+    }
+
+    #aboutMe{
+        text-align: center;
+    }
+
+}

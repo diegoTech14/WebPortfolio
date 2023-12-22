@@ -1,0 +1,34 @@
+
+.fast-presentation h1{
+    font-size:55px;
+}
+
+.fast-presentation p{
+    font-size:20px;
+}
+
+.hyphen, .hyphenS{
+    width:80px;
+    height: 8px;
+    background-color: #FFC300;
+    border-radius:5px;
+}
+
+.hyphenS{
+    width:180px;
+}
+
+.about{
+    background-color: #F2F1F0;
+    height:950px;
+}
+
+p{
+    color:#878787;
+}
+
+
+
+
+
+
