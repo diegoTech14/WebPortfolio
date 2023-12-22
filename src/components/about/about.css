@@ -49,3 +49,32 @@
     }
 
 }
+
+@media (min-width:380px) and (max-width:762px){
+
+    .about-me{
+        margin-right:0px;
+        width: 300px;
+    }
+
+    .skills{
+        margin-left:0px;
+        margin:50px 0px 50px 0px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #about{
+        height:auto;
+    }
+
+    #aboutMe{
+        text-align: center;
+    }
+
+}
