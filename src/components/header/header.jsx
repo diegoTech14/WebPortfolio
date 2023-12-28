@@ -16,7 +16,7 @@ export function Header(){
                 </a></button>
         </div>
         <div id="img">
-            <img src="../../src/assets/imgs/api.png" alt=""/>
+            <img src="../../public/api.png" alt=""/>
         </div>
     </header>
     )

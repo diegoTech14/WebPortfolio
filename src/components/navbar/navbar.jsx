@@ -13,7 +13,7 @@ return (
     <div class="container-fluid d-flex align-items-center justify-content-between">
     <div className='d-flex align-items-center'>
       <div>
-          <img src="../../src/assets/imgs/me1.jpg" alt="" id="meImg"/>
+          <img src="../../public/me1.jpg" alt="" id="meImg"/>
         </div>
         <div class="ms-3">
           <a class="navbar-brand" href="#">DIEGO DUARTE FERNÁNDEZ</a>

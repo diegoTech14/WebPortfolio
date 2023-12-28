@@ -10,7 +10,7 @@ export function Projects (){
         <div id="main_project">
           <div id="project" class="">
             <div class="" id="projectImg">
-              <img src="../../src/assets/imgs/funko.png" alt=""/>
+              <img src="../../public/funko.png" alt=""/>
             </div>
             <div class="pDesc">
               <h2>Funko Pop Cart Shop</h2>
@@ -20,7 +20,7 @@ export function Projects (){
           </div>
           <div id="project" class="">
             <div class="" id="projectImg">
-              <img src="../../src/assets/imgs/gandoca.png" alt=""/>
+              <img src="../../public/gandoca.png" alt=""/>
             </div>
             <div class="pDesc">
               <h2>Gandoca Tours Web Page</h2>
@@ -43,7 +43,7 @@ export function Projects (){
         <div id="main_projects">
           <div id="experience" class="">
             <div class="" id="imgDiv">
-              <img id="expImg" src="../../src/assets/imgs/summer.png" alt=""/>
+              <img id="expImg" src="../../public/summer.png" alt=""/>
             </div>
             <div class="pDesc">
               <h2>Summer School Costa Rica</h2>
@@ -55,7 +55,7 @@ export function Projects (){
 
           <div id="experience" class="">
             <div class="" id="imgDiv">
-              <img id="expImg" src="../../src/assets/imgs/drupal.png" alt=""/>
+              <img id="expImg" src="../../public/drupal.png" alt=""/>
             </div>
             <div class="pDesc">
               <h2>DrupalCamp 2022</h2>
