@@ -11,12 +11,12 @@ export function Header(){
 
             <button type="button" className="ps-5 pe-5 pt-3 pb-3 mt-4 bg-warning border-0"><span className="fs-5 fw-bold">PROJECTS</span></button>
             <button type="button" className="ps-5 pe-5 pt-3 pb-3 mt-4 bg-white border-1" id="cvButton">                
-                <a className="nav-link fw-bold fs-5" href="../../../public/cv.pdf" download={"cv.pdf"} aria-disabled="true">
+                <a className="nav-link fw-bold fs-5" href="/cv.pdf" download={"cv.pdf"} aria-disabled="true">
                     Get CV
                 </a></button>
         </div>
         <div id="img">
-            <img src="../../public/api.png" alt=""/>
+            <img src="/api.png" alt=""/>
         </div>
     </header>
     )
