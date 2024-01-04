@@ -79,3 +79,21 @@ form{
 
     }
 }
+
+@media (min-width:431px) and (max-width:780px){
+    #formContact{
+        width:400px;
+    }
+    #contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #personal{
+        margin-top:35px;
+        padding-left:0px;
+
+    }
+}

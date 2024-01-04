@@ -10,9 +10,7 @@
     margin-bottom: 25px;
 }
 
-#projects p {
-    margin-bottom: 25px;
-}
+
 
 #project div img {
     height: 450px;
@@ -22,7 +20,7 @@
 #experience #expImg {
     width: 900px;
     height: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .pDesc {
@@ -30,7 +28,7 @@
 }
 
 #project {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 #experience #imgDiv {
@@ -125,4 +123,36 @@
         margin: 40px 0px 20px 0px;
     }
 
+}
+
+@media (min-width:431px) and (max-width:780px){
+    #project {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #project div img {
+        width: 460px;
+        height: 280px;
+    }
+
+    #experience {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #experience #expImg {
+        width: 380px;
+        height: 280px;
+    }
+
+    #experience #imgDiv {
+        margin: 40px 0px 20px 0px;
+    }
 }

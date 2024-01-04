@@ -50,7 +50,27 @@ header{
         width: 190px;
         margin-bottom: 40px;
     }
-    
 
+}
+
+@media (min-width:431px) and (max-width:780px){
+    #img img{
+        width: 400px;
+        height: 400px;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom:100px;
+    }
+
+    #cvButton{
+        margin-left:2px;
+        width: 190px;
+        margin-bottom: 40px;
+    }
 }
 

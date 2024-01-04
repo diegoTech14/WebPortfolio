@@ -5,7 +5,7 @@ export function Projects (){
           
         <div class="d-flex flex-column justify-content-center align-items-center" id="titleProjects">
           <h1 class="fw-bold pt-2">PROJECTS</h1>
-          <p class="text-center" id="subTitleProjects">Here you will find some of the personal and clients projects that I created</p>
+          <p class="fs-4 text-center" id="subTitleProjects">Here you will find some of the personal and clients projects that I created</p>
         </div>
         <div id="main_project">
           <div id="project" class="">
@@ -13,8 +13,8 @@ export function Projects (){
               <img src="/funko.png" alt=""/>
             </div>
             <div class="pDesc">
-              <h2>Funko Pop Cart Shop</h2>
-              <p>This is a Funko pop shop cart in which you can manage the inventory, users, and add products to the cart.</p>
+              <h2>Inventory System for Funkos</h2>
+              <p>This is a college project in wich we can manage inventory of a Funko's Shopping Cart.</p>
               <button type="button" class="ps-5 pe-5 pt-3 pb-3 mt-4 bg-warning border-0"><span class="fs-5 fw-bold">More Details</span></button>
             </div>
           </div>
@@ -24,7 +24,7 @@ export function Projects (){
             </div>
             <div class="pDesc">
               <h2>Gandoca Tours Web Page</h2>
-              <p>This is a web app made in Wordpress and my rol in this project was support the page, fix some errors and create new content and sections. 
+              <p>This is a web app made in Wordpress and my role in this project was support the page, fix some errors and create new content and sections. 
                 You can see it <a href="https://www.gandocatours.com/" target='_blank' className='fw-bold' id="hyperlinkWeb">here</a>
               </p>
             </div>
@@ -35,8 +35,8 @@ export function Projects (){
       
       <div>
       <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 class="mt-5 fw-bold text-center">OTHER PROJECTS / EXPERIENCES</h1>
-          <p class="mt-2 fs-4 text-center" id="subTitleProjects">Here you will find some other projects like research and some experiences like colaborate with Drupal Camp and others</p>
+          <h1 class="mt-5 fw-bold text-center">EXPERIENCES</h1>
+          <p class="mt-2 fs-4 text-center" id="subTitleProjects">Here you will find some other projects like research projects and some experiences like collaborate with Drupal Camp and others</p>
         </div>
 
         <div>
