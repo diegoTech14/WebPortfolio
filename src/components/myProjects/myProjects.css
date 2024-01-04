@@ -6,8 +6,6 @@
     align-items: center;
 }
 
-
-
 #projects h1 {
     margin-bottom: 25px;
 }
@@ -44,11 +42,13 @@
     color: #636363;
 }
 
-@media (min-width:320px) and (max-width:380px) {
+
+
+@media (min-width:270px) and (max-width:380px) {
     #titleProjects {
         margin-top: 100px;
+        
     }
-
 
     #project {
         text-align: center;
@@ -63,16 +63,16 @@
     }
 
     #subTitleProjects {
-        width: 280px;
+        width: 270px;
     }
 
     .pDesc {
-        width: 280px;
+        width: 270px;
     }
 
     #project div img {
-        width: 300px;
-        height: 150px;
+        width: 270px;
+        height: 140px;
     }
 
     #experience {
@@ -84,7 +84,7 @@
     }
 
     #experience #expImg {
-        width: 300px;
+        width: 270px;
         height: 200px;
     }
 

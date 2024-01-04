@@ -27,19 +27,20 @@ form{
     color:#FFB10D;
 }
 
-#personal{
-    padding-left:150px;
-}
+
 
 #contact{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-@media (min-width:320px) and (max-width:380px){
+
+
+@media (min-width:270px) and (max-width:380px){
     #formContact{
-        width:300px;
+        width:250px;
     }
     #contact{
         display: flex;
@@ -50,12 +51,13 @@ form{
 
     #personal{
         margin-top:35px;
+        display:flex;
         padding-left:0px;
 
     }
+
     #personal-data{
         text-align: center;
-        padding-right: 40px;
     }
 
 }

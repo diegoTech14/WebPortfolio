@@ -102,14 +102,7 @@ export const Contact=()=>{
               <a href="https://github.com/diegoTech14"><i className="bi bi-github"></i></a>
             </div>
           </div>
-          <div id="personal-data">
-            <div>
-                <i class="bi bi-telephone-fill"></i> <h4 className="">+506 64832448</h4>
-            </div>
-            <div>
-            <i class="bi bi-envelope-fill"></i> <h4 className="">diegoduarte8343@gmail.com</h4>
-            </div>
-          </div>
+
         </div>
 
         <Toaster/>

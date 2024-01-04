@@ -21,16 +21,16 @@
 }
 
 
-@media (min-width:320px) and (max-width:380px){
+
+
+@media (min-width:270px) and (max-width:380px){
 
     .about-me{
-        margin-right:0px;
-        width: 300px;
+        width: auto;
     }
 
     .skills{
-        margin-left:0px;
-        margin:50px 0px 50px 0px;
+        margin:50px 80px 50px 100px;
     }
 
     .container{
@@ -38,14 +38,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
     
     #about{
         height:auto;
     }
 
-    #aboutMe{
+    .about-me{
+        width:270px;
+        font-size:18px;
         text-align: center;
+        margin-left:80px;
+    }
+    .about-me p{
+        padding:10px;
     }
 
 }

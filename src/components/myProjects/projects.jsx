@@ -4,8 +4,8 @@ export function Projects (){
         <div class="projects" id="projects">
           
         <div class="d-flex flex-column justify-content-center align-items-center" id="titleProjects">
-          <h1 class="fw-bold">PROJECTS</h1>
-          <p class="fs-4 text-center" id="subTitleProjects">Here you will find some of the personal and clients projects that I created</p>
+          <h1 class="fw-bold pt-2">PROJECTS</h1>
+          <p class="text-center" id="subTitleProjects">Here you will find some of the personal and clients projects that I created</p>
         </div>
         <div id="main_project">
           <div id="project" class="">
