@@ -62,9 +62,9 @@ form{
 
 }
 
-@media (min-width:380px) and (max-width:768px){
+@media (min-width:380px) and (max-width:430px){
     #formContact{
-        width:400px;
+        width:350px;
     }
     #contact{
         display: flex;

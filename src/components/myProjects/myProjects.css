@@ -93,7 +93,7 @@
     }
 }
 
-@media (min-width:380px) and (max-width: 768px) {
+@media (min-width:380px) and (max-width: 430px) {
 
     #project {
         text-align: center;
@@ -104,8 +104,8 @@
     }
 
     #project div img {
-        width: 600px;
-        height: 300px;
+        width: 380px;
+        height: 200px;
     }
 
     #experience {
@@ -117,8 +117,8 @@
     }
 
     #experience #expImg {
-        width: 500px;
-        height: 400px;
+        width: 380px;
+        height: 280px;
     }
 
     #experience #imgDiv {

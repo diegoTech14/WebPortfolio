@@ -33,17 +33,24 @@ header{
     } 
 }
 
-@media (min-width:380px) and (max-width: 768px){
+@media (min-width:380px) and (max-width: 430px){
     #img img{
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
     header{
         display: flex;
         flex-direction: column;
         text-align: center;
         margin-top: 100px;
+        margin-bottom:100px;
     }
+    #cvButton{
+        margin-left:0px;
+        width: 190px;
+        margin-bottom: 40px;
+    }
+    
 
 }
 
