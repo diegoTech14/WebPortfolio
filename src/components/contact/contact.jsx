@@ -9,7 +9,7 @@ export const Contact=()=>{
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current,
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, "service_flhnw2p", form.current,
       "hH_Uin8p0_gmfypr3").then(
         (result) => {
           toast.success("Email Sent Successfully", {
