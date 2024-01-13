@@ -2,6 +2,8 @@ import './contact.css';
 import emailjs from '@emailjs/browser'
 import { useRef } from 'react';
 import { Toaster, toast } from 'sonner';
+import dotenv from 'dotenv';
+dotenv.config()
 
 export const Contact=()=>{
   const form = useRef();
@@ -23,7 +25,7 @@ export const Contact=()=>{
         }, 
         (error) => {
           toast.error("Email Was Not Sent",{
-            description:"Something Happened Wrong, try again please...",
+            description:`Something Happened Wrong, try again please...${error}`,
             style:{
               background:"red",
               color:"white"
