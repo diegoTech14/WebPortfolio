@@ -2,8 +2,6 @@ import './contact.css';
 import emailjs from '@emailjs/browser'
 import { useRef } from 'react';
 import { Toaster, toast } from 'sonner';
-import dotenv from 'dotenv';
-dotenv.config()
 
 export const Contact=()=>{
   const form = useRef();
