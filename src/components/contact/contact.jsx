@@ -9,7 +9,7 @@ export const Contact=()=>{
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_flhnw2p", "service_flhnw2p", form.current,
+    emailjs.sendForm("service_flhnw2p", "template_wpn05ig", form.current,
       "hH_Uin8p0_gmfypr3").then(
         (result) => {
           toast.success("Email Sent Successfully", {
