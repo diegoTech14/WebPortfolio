@@ -23,13 +23,13 @@ export const Contact=()=>{
         }, 
         (error) => {
           toast.error("Email Was Not Sent",{
-            description:`Something Happened Wrong, try again please...${error}`,
+            description:`Something Happened Wrong, try again please...`,
             style:{
               background:"red",
               color:"white"
             }
           })
-
+          console.log(error)
           
         });
   }
