@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser'
 import { useRef } from 'react';
 import { Toaster, toast } from 'sonner';
 
-export const Contact=()=>{
+export const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -13,32 +13,38 @@ export const Contact=()=>{
       "hH_Uin8p0_gmfypr3").then(
         (result) => {
           toast.success("Email Sent Successfully", {
-            description:"Thanks for contact me",
-            style:{
-              background:"green",
-              color:"white"
+            description: "Thanks for contact me",
+            style: {
+              background: "green",
+              color: "white"
             }
           })
 
-        }, 
+        },
         (error) => {
-          toast.error("Email Was Not Sent",{
-            description:`Something Happened Wrong, try again please...`,
-            style:{
-              background:"red",
-              color:"white"
+          toast.error("Email Was Not Sent", {
+            description: `Something Happened Wrong, try again please...`,
+            style: {
+              background: "red",
+              color: "white"
             }
           })
-          console.log(error)
-          
         });
   }
-  <Toaster position='bottom-left'/>
-    return (
+  <Toaster position='bottom-left' />
+  return (
+    <div id="contact-container">
 
+      <div id="info-contact">
+        <h1>Let's connect!</h1>
+        <br />
+        <h4>Thank you so much for watch my portfolio, contact me
+          through an Email and let's talk about a new opportunity to work together.</h4>
+          <br />
+          <h5><span>I'll be excited to help your team and your company!</span> 🧑🏽‍💻</h5>
+      </div>
       <div className="mt-5 mb-5" id="contact">
         <div className="">
-        <h2 className="text-center fw-bold">Contact Me</h2>
           <form ref={form} onSubmit={sendEmail} id="formContact">
             <div className="mb-3">
               <label for="exampleInputEmail1" class="form-label">
@@ -87,14 +93,14 @@ export const Contact=()=>{
                 rows={6}
               />
             </div>
-            <button type="submit" className="btn btn-warning rounded-0 fw-bold w-100" >
-              Send Email
+            <button type="submit" className="btn rounded-1 fw-bold w-100" id="button-email">
+              Submit
             </button>
           </form>
         </div>
-        
+
         <div id="personal" className=" d-flex justify-content-center align-items-center flex-column">
-        <div id="socialNetworks" className="d-flex justify-content-center">
+          <div id="socialNetworks" className="d-flex justify-content-center">
             <div className='m-4'>
               <a href="https://www.linkedin.com/in/diego-duarte-fern%C3%A1ndez-165445180/"><i className="bi bi-linkedin"></i></a>
             </div>
@@ -104,10 +110,8 @@ export const Contact=()=>{
           </div>
 
         </div>
-
-        <Toaster/>
       </div>
-
-
-    );
-};export default Contact
+      <Toaster />
+    </div>
+  );
+}; export default Contact

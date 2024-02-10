@@ -5,11 +5,43 @@
     justify-content: center;
     align-items: center;
 }
+#title-projects{
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+#projectImgGreen img{
+    width: 500px !important;
+}
+#title-projects h1{
+    font-size:50px;
+}
+
+#title-projects p{
+    font-size:20px;
+    color:gray;
+}
 
 #projects h1 {
+    text-align: center;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
+#iconP{
+    font-size:35px;
+
+}
+
+#buttonProject{
+    background-color: #8B61E3;
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
 
 #project div img {
@@ -37,16 +69,12 @@
 
 #hyperlinkWeb {
     text-decoration: none;
-    color: #636363;
+    color: white;
 }
 
 
 
 @media (min-width:270px) and (max-width:380px) {
-    #titleProjects {
-        margin-top: 100px;
-        
-    }
 
     #project {
         text-align: center;
@@ -55,7 +83,9 @@
         justify-content: center;
         align-items: center;
     }
-
+    #iconP{
+        font-size:35px;
+    }
     #project {
         margin-bottom: 50px;
     }
@@ -73,22 +103,25 @@
         height: 140px;
     }
 
-    #experience {
-        text-align: center;
+    #block-experiences{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    #experience #expImg {
-        width: 270px;
-        height: 200px;
+    #block-experiences #drupal-ex, #sigchi-ex{
+        width: 320px;
     }
 
-    #experience #imgDiv {
-        margin: 40px 0px 20px 0px;
+    #experience #expImg{
+        width:320px;
     }
+
+    #projectImgGreen img{
+        width: 250px !important;
+        height: 200px !important;
+    }   
 }
 
 @media (min-width:380px) and (max-width: 430px) {

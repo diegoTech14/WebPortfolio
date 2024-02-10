@@ -1,7 +1,7 @@
 import { Navbar } from './components/navbar/navbar';
 import { Header } from './components/header/header';
 import { About } from './components/about/about';
-import { Projects } from './components/myProjects/projects';
+import { Projects } from './components/myProjects/projects'; 
 import { Contact } from './components/contact/contact';
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -13,9 +13,11 @@ function App() {
   return (
     <>
       <Navbar/>
-
       <Header/>
-      <About/>
+      <div id="second-container">
+        <About/>
+        
+      </div>
       <Projects/>
       <Contact/>
     </>

@@ -1,13 +1,14 @@
-.navbar{
-    background-color: #1B1C1C;
-}
-.navbar a{
-    color:white;
-    transition:color 450ms ease-out;
+#item{
+    font-weight:600;
+    font-size: 17px;
 }
 
-.navbar a:hover{
-    color:#FFC300;   
+#navbar{
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    background-color: #fff;
+    font-size: 18px;
 }
 
 #meImg{
@@ -16,16 +17,21 @@
     border-radius: 5pc;
 }
 
-@media (max-width: 768px) {
-    .container-fluid {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        text-align: center;
+#navOptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:270px) and (max-width:780px){
+    #navbar{
+        width: 100%;
+        z-index: 2;
+        position: fixed;
+        top:0px;
+        background-color: #fff;
+        font-size: 18px;
     }
-    #button{
-        margin-left: 10px;
-        margin-bottom: 5px;
-    }
-  }
+    
+}
 

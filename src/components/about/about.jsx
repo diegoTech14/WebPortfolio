@@ -1,133 +1,90 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faDocker,
-  faGithub,
-  faNodeJs,
-  faJs,
-  faHtml5,
-  faCss3,
-  faBootstrap,
-  faPython,
-  faGit,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
-import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+
+import { SiDocker, SiMysql } from "react-icons/si";
+import { DiNodejsSmall } from "react-icons/di";
+import { DiPython } from "react-icons/di";
+import { SiMongodb } from "react-icons/si";
+import { FaPhp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
+import { FaAws } from "react-icons/fa6";
 import './about.css';
 
 export function About() {
   return (
-    <div>
-      <div class="about" id="about">
-      <div class="d-flex flex-column justify-content-center align-items-center m-5">
-        <h1 class="mt-5 fw-bold">ABOUT ME</h1>
-        <p class="mt-5 fs-4 text-center">
-          Here you will find more information about me, what I do, and my
-          current skills mostly in terms <br />
-          of programming and technology
+    <div id="about-container">
+      <div id="about-me" className="shadow">
+        <h3 className="fw-bold">Me as a backend developer</h3>
+        <p class="mt-4" id="about-me-text">
+          Data, databases and logic are topics that I am passionate about, I really love solving new challenges, as a backend developer I consider it very important to continue studying,
+          creating and learning to grow in our professional career and provide more and new solutions.
         </p>
+
+        <p className="mt-4" id="tag-about">I am very excited to help you! 🧑🏽‍💻</p>
       </div>
-      <div class="container" id="aboutCont">
-        
-        <div class="about-me" id="aboutMe">
-          <h3 class="fw-bold">Let's go to know me!</h3>
-          <p class="mt-5">
-            I'm a <span class="fw-bold">Backend Web Developer</span> building
-            and designing the best solution for you App, you can see some of my
-            work in the <span class="fw-bold">Projects</span> section.
-            <br />
-            <br />I also like support in research projects because it's a good
-            way to learn more about other technologies and help people to create
-            their projects, Feel free to connect or follow me on my{" "}
-            <a href="https://www.linkedin.com/in/diego-duarte-fern%C3%A1ndez-165445180/">
-              Linkedin
-            </a>
-            . If you are interested in my contribution in research projects just{" "}
-            <a href="research.html">Click Here</a>
+      <div id="about-skills">
+        <div className="shadow" id="component1">
+          <h3 className="fw-bold">About me</h3>
+          <p>I'm <span>Diego Duarte Fernández</span>, I'm a jr. Developer who loves helping others, talking about technology, animals and the ocean. 
+            I consider myself to be a <span>proactive</span>, <span>kind</span> and <span>responsable</span> person who likes to do everything well. Also sometimes I'm perfectionist 
+            and many times I like to take the initiative to do or create something. I really like to programming, solve a lot of challenges and get feedback to improve myself.
           </p>
-          <button
-            type="button"
-            class="ps-5 pe-5 pt-3 pb-3 mt-4 bg-warning border-0"
-          >
-            <span class="fs-5 fw-bold">CONTACT</span>
-          </button>
         </div>
 
-        {/* Skills div */}
-        <div class="skills">
+        <div id="component" className="shadow">
           <div>
-            <h3 className="fw-bold text-center">Skills</h3>
-            <div className="container mt-5 text-center">
-              <div className="row">
-                <div className="col me-4">
-                  <FontAwesomeIcon
-                    icon={faPython}
-                    style={{ fontSize: "90px" }}
-                  />
-                  <p className="fw-bold">Python</p>
-                </div>
-                <div className="col me-4">
-                  <FontAwesomeIcon
-                    icon={faNodeJs}
-                    style={{ fontSize: "90px" }}
-                  />
-                  <p className="fw-bold">Node.js</p>
-                </div>
-                <div className="col me-4">
-                  <FontAwesomeIcon
-                    icon={faDatabase}
-                    style={{ fontSize: "90px" }}
-                  />
-                  <p className="fw-bold">MySQL</p>
-                </div>
-              </div>
-              <div className="row mt-3 text-center">
-                <div className="col me-4">
-                  <FontAwesomeIcon
-                    icon={faHtml5}
-                    style={{ fontSize: "90px" }}
-                  />
-                  <p className="fw-bold">HTML 5</p>
-                </div>
-                <div className="col me-4">
-                  <FontAwesomeIcon
-                    icon={faBootstrap}
-                    style={{ fontSize: "90px" }}
-                  />
-                  <p className="fw-bold">Bootstrap/Css 3</p>
-                </div>
-                <div className="col me-4">
-                  <FontAwesomeIcon icon={faJs} style={{ fontSize: "90px" }} />
-                  <p className="fw-bold">JavaScript</p>
-                </div>
-              </div>
-              <div className="row mt-3 text-center">
-                <div className="col me-4">
-                  <FontAwesomeIcon
-                    icon={faDocker}
-                    style={{ fontSize: "90px" }}
-                  />
-                  <p className="fw-bold">Docker</p>
-                </div>
-                <div className="col me-4">
-                  <FontAwesomeIcon
-                    icon={faGithub}
-                    style={{ fontSize: "90px" }}
-                  />
-                  <p className="fw-bold">Git/GitHub</p>
-                </div>
-                <div className="col me-4">
-                  <FontAwesomeIcon
-                    icon={faReact}
-                    style={{ fontSize: "90px" }}
-                  />
-                  <p className="fw-bold">React</p>
-                </div>
-              </div>
+          <h3 className="fw-bold">Main technologies</h3>
+          <p>These are my most outstanding skills for programming and developing web proyects,
+            I like to know a little about other areas such as cybersecurity, frontend, software architecture based on
+            Backend development.
+          </p>
+            <DiNodejsSmall id="icon" />
+            &nbsp;&nbsp;&nbsp;
+            <SiMysql id="icon" />
+            &nbsp;&nbsp;&nbsp;
+            <DiPython id="icon" />
+            {/*&nbsp;&nbsp;&nbsp;
+            <SiMongodb id="icon"/>*/}
+            &nbsp;&nbsp;&nbsp;
+            <FaGithub  id="icon"/>
+
+            <div id="description-tech">
+            <p className="mt-3" >NodeJS, MySQL, Python, MongoDB, Git/Github</p>
             </div>
           </div>
+
+        </div>
+        <div id="component" className="shadow">
+          <div>
+          <h3 className="fw-bold">Other technologies</h3>
+          <p>
+            These are my least outstanding skills for programming and developing web proyects,
+            Everyday I like to visualize myself as a good programmer and gradually I like to learn some new technologies
+            to complement my TI knowledge.
+          </p>
+           
+            <FaJava  id="icon" />
+            &nbsp;&nbsp;&nbsp;
+            <FaPhp id="icon" />
+            &nbsp;&nbsp;&nbsp;
+            <FaReact id="icon" />
+            &nbsp;&nbsp;&nbsp;
+            <FaBootstrap  id="icon" />
+            {/*&nbsp;&nbsp;&nbsp;
+            <FaAws id="icon" />*/}
+            &nbsp;&nbsp;&nbsp;
+            <SiDocker id="icon"/>
+            <div id="description-tech">
+            <p className="mt-3" >Java, php, React, Bootstrap, AWS, Docker</p>
+            </div>
+
+          </div>
+
         </div>
       </div>
     </div>
-    </div>
+
+
   );
 }

@@ -1,44 +1,39 @@
 import './navbar.css';
 
-export function Navbar(){
-return (
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  
-    <button id="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+export function Navbar() {
+  return (
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <nav className="navbar navbar-expand-lg" id="navbar">
+      <div className="container-fluid">
+        &nbsp;
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarText">
+        <a className="navbar-brand" href="#header">
+          <img src="/me1.jpg" alt="" id="meImg" />
+          &nbsp;&nbsp;Diego Duarte Fernández
+        </a>
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item" id="item">
+              <a class="nav-link" href="#header">Home</a>
+            </li>
+            <li className="nav-item" id="item">
+              <a className="nav-link" href="#projects">Projects</a>
+            </li>
+            <li className="nav-item" id="item">
+              <a className="nav-link" href="#about-container">About Me</a>
+            </li>
+            <li className="nav-item" id="item">
+              <a className="nav-link" href="#contact-container">Contact Me</a>
+            </li>
+          </ul>
 
-    <div class="container-fluid d-flex align-items-center justify-content-between">
-    <div className='d-flex align-items-center'>
-      <div>
-          <img src="/me1.jpg" alt="" id="meImg"/>
         </div>
-        <div class="ms-3">
-          <a class="navbar-brand" href="#">DIEGO DUARTE FERNÁNDEZ</a>
       </div>
-    </div>
-    <div>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    </nav>
 
-        <li class="nav-item">
-            <a class="nav-link fw-bold" href="#nav">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-bold" href="#about">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-bold" href="#projects">PROJECTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-bold" href="#contact" aria-disabled="true">CONTACT</a>
-          </li>
-      </ul>
-      </div>
-    </div>
-  </div>
-</nav>
 
-)
+
+  )
 }

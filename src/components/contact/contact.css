@@ -1,5 +1,30 @@
+#info-contact{
+    margin-top:50px;
+    padding:20px;
+    width:580px;
+}
+#info-contact h4{
+    color:gray;
+}
+#info-contact h1{
+    margin-top:60px;
+    font-size: 80px;
+    font-weight: bold;
+}
+#contact-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 form{
     width:500px;
+}
+
+#button-email{
+    background-color: #8B61E3;
+    color:white;
 }
 
 #personal-data div i{
@@ -18,27 +43,49 @@ form{
 }
 
 #socialNetworks div i{
-    font-size: 70px;
+    font-size: 50px;
     text-decoration:none;
     color: #343331;
 }
-
-#socialNetworks div i:hover{
-    color:#FFB10D;
+label{
+    font-weight: bold;
 }
 
-
+#socialNetworks div i:hover{
+    color:#8B61E3;
+}
 
 #contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 
-
 @media (min-width:270px) and (max-width:380px){
+    #contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #info-contact{
+        text-align: center;
+        width: 350px;
+
+    }
+    #info-contact h1{
+        font-size:40px;
+
+    }
+
+    #info-contact h4{
+        text-align: center;
+        font-size:15px;
+    }
     #formContact{
         width:250px;
     }
@@ -63,37 +110,5 @@ form{
 }
 
 @media (min-width:380px) and (max-width:430px){
-    #formContact{
-        width:350px;
-    }
-    #contact{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #personal{
-        margin-top:35px;
-        padding-left:0px;
-
-    }
-}
-
-@media (min-width:431px) and (max-width:780px){
-    #formContact{
-        width:400px;
-    }
-    #contact{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #personal{
-        margin-top:35px;
-        padding-left:0px;
-
-    }
+    
 }
