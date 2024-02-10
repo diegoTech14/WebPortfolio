@@ -103,13 +103,13 @@ export function Projects() {
           <p>I feel very happy to be part of some good experiences throughout my career in which I gave my help to others,<br /> I networked and contributed with others in new projects.</p>
         </div>
         <div id="block-experiences">
-          <div id="drupal-ex" className='shadow'>
+          <div id="drupal-ex" className='shadow drupal-ex'>
             <div className='mt-5'>
               <h2>Drupal Camp 2023</h2>
               <p>The first time of Drupal Camp at UCR headquarters of the Caribbean learning about Drupal and being staff.</p>
             </div>
           </div>
-          <div id="sigchi-ex" className='shadow'>
+          <div id="sigchi-ex" className='shadow chi-ex'>
             <div className='mt-5'>
               <h2>SIGCHI Costa Rica 2023</h2>
               <p>A different experience learning about emerging technology and creating a solution to a enviromental problem.

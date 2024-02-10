@@ -11,7 +11,26 @@
     padding: 20px;
     margin-bottom: 50px;
 }
+.drupal-ex{
+    opacity: 0; /* Inicialmente oculto */
+    transform: translateX(-120%); /* Movido hacia la izquierda */
+}
+.drupal-ex.effect{
+    animation-name: loadLeft;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; /* La animación retiene el estado final */
+}
 
+.chi-ex{
+    opacity: 0; /* Inicialmente oculto */
+    transform: translateX(-120%); /* Movido hacia la izquierda */
+}
+.chi-ex.effect{
+
+    animation-name: loadRight;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; /* La animación retiene el estado final */
+}
 
 #projectImgGreen img{
     width: 500px !important;
@@ -75,6 +94,17 @@
 
 
 @media (min-width:270px) and (max-width:380px) {
+    .chi-ex{
+        opacity: 0; /* Inicialmente oculto */
+        transform: translateX(-120%); /* Movido hacia la izquierda */
+    }
+    .chi-ex.effect{
+        animation-delay: 0.5s;
+        animation-name: loadRight;
+        animation-duration: 1.2s;
+        animation-fill-mode: forwards; /* La animación retiene el estado final */
+    }
+    
 
     #project {
         text-align: center;

@@ -6,41 +6,30 @@ export function Header() {
             <div id="fast-presentation">
                 <div id="text">
                     <div id="text-animated">
-                    <TypeAnimation
-                        sequence={[
-                            // Same substring at the start will only be typed out once, initially
-                            "HELLO, I'M DIEGO DUARTE",
-                            1500, // wait 1s before replacing "Mice" with "Hamsters"
+                        <h1>Hello, I'm Diego Duarte Fernández</h1>
+                        <TypeAnimation
+                            sequence={[
+                                "A Backend Developer",
+                                1500
+                            ]}
+                            wrapper="span"
+                            speed={20}
 
-                            'A BACKEND DEVELOPER',
-                            1500,
-                            
-                            "HELLO, I'M DIEGO DUARTE",
-                            1500, // wait 1s before replacing "Mice" with "Hamsters"
-
-                        ]}
-                        wrapper="span"
-                        speed={40}
-                        style={{ fontSize: '2em', display: 'inline-block'}}
-                    />
+                            style={{ fontSize: '30px', color: "#6F3ADC" }}
+                        />
                     </div>
 
-                    <p>I really like solving new challenges,<br/> I enjoy coding 
-                    the best solution for your needs. </p>
+                    <p>
+                        I like to solve problems, desing and write code for the backend side of any application, 
+                        my goal is to provide you the best solution for your needs
+                    </p>
                 </div>
 
-
-
-
-
-
-                    <a className="nav-link fw-bold fs-5" href="/cv.pdf" download={"cv.pdf"} aria-disabled="true">
-                    <button type="button" id="cvButton" className="ps-5 pe-5 pt-3 pb-3 mt-4"> 
+                <a className="fw-bold fs-5" href="/cv.pdf" download={"cv.pdf"} aria-disabled="true">
+                    <button type="button" id="cvButton">
                         Download CV
                     </button>
-                    </a>
-
-
+                </a>
 
             </div>
             <div id="img">

@@ -10,11 +10,13 @@ import { FaReact } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { FaAws } from "react-icons/fa6";
 import './about.css';
+import { someFunction } from "../../scroll.js";
 
 export function About() {
+  {window.addEventListener('scroll', someFunction)}
   return (
     <div id="about-container">
-      <div id="about-me" className="shadow">
+      <div id="about-me" className="shadow about-me">
         <h3 className="fw-bold">Me as a backend developer</h3>
         <p class="mt-4" id="about-me-text">
           Data, databases and logic are topics that I am passionate about, I really love solving new challenges, as a backend developer I consider it very important to continue studying,
@@ -23,8 +25,8 @@ export function About() {
 
         <p className="mt-4" id="tag-about">I am very excited to help you! 🧑🏽‍💻</p>
       </div>
-      <div id="about-skills">
-        <div className="shadow" id="component1">
+      <div id="about-skills" className="about-skills">
+        <div className="shadow component1" id="component1">
           <h3 className="fw-bold">About me</h3>
           <p>I'm <span>Diego Duarte Fernández</span>, I'm a jr. Developer who loves helping others, talking about technology, animals and the ocean. 
             I consider myself to be a <span>proactive</span>, <span>kind</span> and <span>responsable</span> person who likes to do everything well. Also sometimes I'm perfectionist 
@@ -32,7 +34,7 @@ export function About() {
           </p>
         </div>
 
-        <div id="component" className="shadow">
+        <div id="component" className="shadow component2">
           <div>
           <h3 className="fw-bold">Main technologies</h3>
           <p>These are my most outstanding skills for programming and developing web proyects,
@@ -55,7 +57,7 @@ export function About() {
           </div>
 
         </div>
-        <div id="component" className="shadow">
+        <div id="component" className="shadow component3">
           <div>
           <h3 className="fw-bold">Other technologies</h3>
           <p>

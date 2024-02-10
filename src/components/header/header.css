@@ -1,3 +1,10 @@
+#text-animated{
+    margin-bottom: 40px;
+}
+
+#text-animated h1{
+    font-size:40px;
+}
 
 #fast-presentation{
     width: 900px;
@@ -29,6 +36,9 @@ span{
     background-color: #fff;
     border-radius: 5px;
     font-weight: bold;
+    padding:15px 25px 15px 20px;
+    margin-top:20px;
+
 }
 
 @keyframes loadLeft{
@@ -73,10 +83,11 @@ header{
 
 @media (min-width:270px) and (max-width:380px){
     #text-animated{
-        font-size: 15px;
+        font-size: 12px;
+        margin-bottom: 20px;
     }
     #text p{
-        font-size:18px;
+        font-size:15px;
     }
     #fast-presentation{
         width: 350px;
@@ -88,6 +99,7 @@ header{
     }
     #cvButton{
         margin-left:0px;
+        
         width: 190px;
         margin-bottom: 40px;
     }
@@ -96,7 +108,7 @@ header{
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom:100px;
     } 
 }

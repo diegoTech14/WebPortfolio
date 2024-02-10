@@ -4,6 +4,38 @@
     flex-direction: column;
     justify-content: center;
 }
+.about-me {
+    opacity: 0; /* Inicialmente oculto */
+    transform: translateX(-120%); /* Movido hacia la izquierda */
+}
+
+.about-me.effect {
+    animation-name: loadLeft;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; /* La animación retiene el estado final */
+}
+
+.about-skills {
+    opacity: 0; /* Inicialmente oculto */
+    transform: translateX(-120%); /* Movido hacia la izquierda */
+}
+.about-skills.effect{
+    animation-delay: 0.5s;
+    animation-name: loadLeft;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; /* La animación retiene el estado final */
+}
+
+@keyframes loadLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
 
 
 #about-me {
@@ -139,8 +171,6 @@
     font-size: 50px;
     color: #727272
 }
-
-
 
 
 
