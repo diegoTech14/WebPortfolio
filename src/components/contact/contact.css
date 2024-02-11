@@ -109,6 +109,93 @@ label{
 
 }
 
+
+
 @media (min-width:380px) and (max-width:430px){
-    
+    #contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #info-contact{
+        text-align: center;
+        width: 350px;
+
+    }
+    #info-contact h1{
+        font-size:40px;
+
+    }
+
+    #info-contact h4{
+        text-align: center;
+        font-size:15px;
+    }
+    #formContact{
+        width:250px;
+    }
+    #contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #personal{
+        margin-top:35px;
+        display:flex;
+        padding-left:0px;
+
+    }
+
+    #personal-data{
+        text-align: center;
+    }
+}
+
+@media (min-width:430px) and (max-width:780px){
+    #contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #info-contact{
+        text-align: center;
+        width: 430px;
+
+    }
+    #info-contact h1{
+        font-size:40px;
+
+    }
+
+    #info-contact h4{
+        text-align: center;
+        font-size:15px;
+    }
+    #formContact{
+        padding:20px;
+        width:430px;
+    }
+    #contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #personal{
+        margin-top:35px;
+        display:flex;
+        padding-left:0px;
+
+    }
+
+    #personal-data{
+        text-align: center;
+    }
 }

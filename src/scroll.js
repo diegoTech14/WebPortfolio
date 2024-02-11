@@ -10,7 +10,7 @@ export function someFunction() {
         components.classList.add("effect");
     }
 
-    if(window.scrollY >= 2000 && !(drupalExp.classList.contains('effect'))){
+    if(window.scrollY >= 3700 && !(drupalExp.classList.contains('effect'))){
         drupalExp.classList.add("effect");
         chiExp.classList.add("effect");
     }
