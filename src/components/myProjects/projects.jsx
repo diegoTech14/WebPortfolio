@@ -38,7 +38,10 @@ export function Projects() {
                 &nbsp;&nbsp;&nbsp;
                 <FaBootstrap  id="iconP" />
                 </div>
+                <a href="https://github.com/diegoTech14/funkoCommerce">
                 <button type="button" class="ps-5 pe-5 pt-3 pb-3 mt-4 border-0" id="buttonProject">View Code</button>
+                </a>
+                
               </div>
             </div>
           </div>

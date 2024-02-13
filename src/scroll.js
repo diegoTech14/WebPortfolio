@@ -1,5 +1,5 @@
 export function someFunction() {
-    console.log(window.scrollY);
+
     var aboutMeElement = document.getElementById('about-me');
     var components = document.getElementById('about-skills');
     var drupalExp = document.getElementById('drupal-ex');
@@ -10,9 +10,13 @@ export function someFunction() {
         components.classList.add("effect");
     }
 
-    if(window.scrollY >= 3700 && !(drupalExp.classList.contains('effect'))){
-        drupalExp.classList.add("effect");
-        chiExp.classList.add("effect");
+    if ((window.innerWidth > 768 && window.scrollY >= 2000) || (window.innerWidth <= 768 && window.scrollY >= 3700)) {
+        if (!drupalExp.classList.contains('effect')) {
+            drupalExp.classList.add("effect");
+        }
+        if (!chiExp.classList.contains('effect')) {
+            chiExp.classList.add("effect");
+        }
     }
     
 }
