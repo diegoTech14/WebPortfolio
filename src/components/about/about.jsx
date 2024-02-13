@@ -78,7 +78,7 @@ export function About() {
             &nbsp;&nbsp;&nbsp;
             <SiDocker id="icon"/>
             <div id="description-tech">
-            <p className="mt-3" >Java, php, React, Bootstrap, AWS, Docker</p>
+            <p className="mt-3" >Java, php, React, Bootstrap, Docker</p>
             </div>
 
           </div>
