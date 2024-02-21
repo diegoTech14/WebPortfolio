@@ -38,6 +38,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #cvButton{
@@ -55,29 +56,6 @@ span{
     color:white;
 }
 
-@keyframes loadLeft{
-    0%{
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0%);
-    }
-}
-
-@keyframes loadRight{
-    0%{
-        opacity: 0;
-        transform: translateX(100%);
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0%);
-    }
-}
-
-
 header img{
     
     width:600px;
@@ -92,10 +70,10 @@ header{
 }
 
 
-
-
-
 @media (min-width:270px) and (max-width:380px){
+    .container{
+        height: 100%;
+    }
     #header{
         margin-top:180px;
     }
@@ -116,7 +94,6 @@ header{
     }
     #cvButton{
         margin-left:0px;
-        
         width: 190px;
         margin-bottom: 40px;
     }
@@ -131,6 +108,9 @@ header{
 }
 
 @media (min-width:380px) and (max-width: 430px){
+    .container{
+        height: 100%;
+    }
     #header{
         margin-top:180px;
     }
@@ -166,13 +146,10 @@ header{
 }
 
 @media (min-width:431px) and (max-width:780px){
-    #header{
-        margin-top:180px;
+    .container{
+        height: 100%;
     }
-    #text-animated{
-        font-size: 12px;
-        margin-bottom: 20px;
-    }
+
     #text p{
         font-size:15px;
     }
@@ -194,7 +171,7 @@ header{
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 80px;
+        margin-top: 180px;
         margin-bottom:100px;
     } 
 }

@@ -15,7 +15,7 @@ export function Header() {
                             wrapper="span"
                             speed={20}
 
-                            style={{ fontSize: '40px', color: "#12AB7A" }}
+                            style={{ fontSize: '30px', color: "#12AB7A" }}
                         />
                     </div>
 

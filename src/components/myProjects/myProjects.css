@@ -124,11 +124,6 @@
 
 
 
-#hyperlinkWeb {
-    text-decoration: none;
-    color: white;
-}
-
 
 
 @media (min-width:270px) and (max-width:380px) {
@@ -274,8 +269,8 @@
        
     }
 
-    #block-experiences #drupal-ex, #sigchi-ex #pytuthor-ex{
-        width: 390px;
+    #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
+        width: 480px;
     }
 
     #experience #expImg{

@@ -3,13 +3,13 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
+    padding: 100px;
 }
 
 #second-container{
-    background-color: #252424;
+    background-color: #0F0F0F;
 }
-
 
 
 .fast-presentation h1{
@@ -25,7 +25,6 @@
     text-align: start;
     width: 1400px;
     font-size: 20px;
-    margin-top: 130px;
     padding: 20px;
     border-radius: 5px;
     border-top: 6px solid #12AB7A;
@@ -76,12 +75,12 @@
 }
 #about-skills #component {
     line-height: 1.7;
-    background-color: #0F0F0F;
+    background-color: black;
     color:white;
     padding: 20px;
     border-radius: 5px;
     border-top: 6px solid #0F0F0F;
-    margin: 30px 10px 50px 10px;
+    margin: 10px 10px 10px 10px;
     width: 500px;
     transition: 400ms ease-in-out;
 }
@@ -91,7 +90,7 @@
     bottom: 20px;
 }
 
-#component1:hover{
+#component:hover{
     border-top: 6px solid #12AB7A;
     bottom: 20px;
 }
@@ -137,6 +136,7 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        height: 100%;
     }
     
 }
@@ -168,6 +168,7 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        height: 100%;
     }
 
 }
@@ -176,7 +177,8 @@
     #icon {
         transition: 400ms ease-in-out;
         font-size: 40px;
-        color: #727272
+        color: #727272;
+
     }
 
     #about-me{
@@ -185,14 +187,15 @@
 
     #about-skills #component{
         width: 390px;
-        margin-top: 30px;
+
     }
     
     #about-skills {
-        margin-top: 5px;
+
         width:380px;
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
 
     #about-container{

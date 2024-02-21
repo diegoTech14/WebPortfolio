@@ -14,11 +14,12 @@
     color:#12AB7A;
 }
 #contact-container{
-    height: 100vh;
+    margin-top: 50px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #252424;
+    background-color: #0F0F0F;
     
 }
 
@@ -176,7 +177,7 @@ label{
 
     }
     #info-contact h1{
-        font-size:40px;
+        font-size:70px;
 
     }
 
