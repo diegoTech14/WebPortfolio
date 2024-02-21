@@ -164,7 +164,7 @@
         align-items: center;
     }
 
-    #block-experiences #drupal-ex, #sigchi-ex #pytuthor-ex{
+    #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
         width: 320px;
     }
 
