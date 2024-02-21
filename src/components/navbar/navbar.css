@@ -1,12 +1,14 @@
 #item{
     font-weight:600;
     font-size: 17px;
+    
 }
 
 #navbar{
     padding: 10px 30px 10px 30px; 
     width: 100%;
-    background-color: #fff;
+    background-color: black;
+
     font-size: 18px;
 }
 

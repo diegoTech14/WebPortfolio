@@ -38,8 +38,8 @@ export const Contact = () => {
       <div id="info-contact">
         <h1>Let's connect!</h1>
         <br />
-        <h4>Thank you so much for watch my portfolio, contact me
-          through an Email and let's talk about a new opportunity to work together.</h4>
+        <h4>Thank you very much for watch my portfolio, contact me
+          through an Email and let's talk about a new opportunity to combine knowledge, create satisfactory software and experiences</h4>
           <br />
           <h5><span>I'll be excited to help your team and your company!</span> 🧑🏽‍💻</h5>
       </div>

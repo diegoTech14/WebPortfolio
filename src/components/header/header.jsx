@@ -6,7 +6,7 @@ export function Header() {
             <div id="fast-presentation">
                 <div id="text">
                     <div id="text-animated">
-                        <h1>Hello, I'm Diego Duarte Fernández</h1>
+                        <h1>Hello, <br></br>I'm Diego Duarte</h1>
                         <TypeAnimation
                             sequence={[
                                 "A Backend Developer",
@@ -15,13 +15,13 @@ export function Header() {
                             wrapper="span"
                             speed={20}
 
-                            style={{ fontSize: '30px', color: "#6F3ADC" }}
+                            style={{ fontSize: '40px', color: "#12AB7A" }}
                         />
                     </div>
 
                     <p>
                         I like to solve problems, desing and write code for the backend side of any application, 
-                        my goal is to provide you the best solution for your needs
+                        my goal is look for better tailored solutions using software tools
                     </p>
                 </div>
 
@@ -33,7 +33,7 @@ export function Header() {
 
             </div>
             <div id="img">
-                <img src="/diegoDev.gif" alt="" />
+                <img className='img-fluid' src="/diego.png" alt="" />
             </div>
         </header>
     )

@@ -1,32 +1,40 @@
 #text-animated{
     margin-bottom: 40px;
+    color: white;
+
 }
 
+
 #text-animated h1{
-    font-size:40px;
+    font-size:60px;
 }
 
 #fast-presentation{
-    width: 900px;
-    animation-name: loadLeft;
-    animation-duration: 1.2s;
+    width: 800px;
+}
+
+#img{
+
+    margin-left:50px;
 }
 
 #text{
+    line-height: 1.7;
     font-size: 20px;
 }
 
 span{
-    color:Black;
+    color:white;
     font-weight: bold;
 }
 
 #text p{
     font-size: 20px;
-    color:#6B6B6B;
+    color:white;
 }
 
 .container{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,11 +42,17 @@ span{
 
 #cvButton{
     background-color: #fff;
-    border-radius: 5px;
     font-weight: bold;
     padding:15px 25px 15px 20px;
     margin-top:20px;
+    border-radius: 5px;
+    border:none;
+    transition: 0.2s ease-in;
+}
 
+#cvButton:hover{
+    background-color: #12AB7A;
+    color:white;
 }
 
 @keyframes loadLeft{
@@ -82,6 +96,9 @@ header{
 
 
 @media (min-width:270px) and (max-width:380px){
+    #header{
+        margin-top:180px;
+    }
     #text-animated{
         font-size: 12px;
         margin-bottom: 20px;
@@ -114,6 +131,9 @@ header{
 }
 
 @media (min-width:380px) and (max-width: 430px){
+    #header{
+        margin-top:180px;
+    }
     #text-animated{
         font-size: 12px;
         margin-bottom: 20px;
@@ -146,6 +166,9 @@ header{
 }
 
 @media (min-width:431px) and (max-width:780px){
+    #header{
+        margin-top:180px;
+    }
     #text-animated{
         font-size: 12px;
         margin-bottom: 20px;

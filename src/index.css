@@ -1,31 +1,8 @@
 
-
-#second-container{
-    background-color: #F5F6F7;
-}
-.fast-presentation h1{
-    font-size:55px;
+body{
+    background-color: #0F0F0F;
 }
 
-.fast-presentation p{
-    font-size:20px;
-}
-
-.hyphen, .hyphenS{
-    width:80px;
-    height: 8px;
-    background-color: #FFC300;
-    border-radius:5px;
-}
-
-.hyphenS{
-    width:180px;
-}
-
-.about{
-    background-color: #F2F1F0;
-    height:950px;
-}
 
 
 

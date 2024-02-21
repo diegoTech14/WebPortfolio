@@ -4,39 +4,76 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+ 
 }
+
 #title-projects{
-    margin-top: 50px;
+
     text-align: center;
     padding: 20px;
     margin-bottom: 50px;
-}
-.drupal-ex{
-    opacity: 0; /* Inicialmente oculto */
-    transform: translateX(-120%); /* Movido hacia la izquierda */
-}
-.drupal-ex.effect{
-    animation-name: loadLeft;
-    animation-duration: 1.2s;
-    animation-fill-mode: forwards; /* La animación retiene el estado final */
+    color:white;
 }
 
-.chi-ex{
-    opacity: 0; /* Inicialmente oculto */
-    transform: translateX(-120%); /* Movido hacia la izquierda */
+#block-experiences{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-.chi-ex.effect{
 
-    animation-name: loadRight;
-    animation-duration: 1.2s;
-    animation-fill-mode: forwards; /* La animación retiene el estado final */
+#block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 650px;
+    margin: 30px;
+}
+
+
+#drupal-ex{
+    border-radius: 5px;
+    height: 350px;
+    background-image: url("../../../public/drupalcamp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+#pytuthor-ex{
+    border-radius: 5px;
+    height: 350px;
+    background-image: url("../../../public/pytuthor.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+#sigchi-ex{
+    border-radius: 5px;
+    height: 350px;
+    background-image: url("../../../public/sigchi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+#experiences{
+    background-color: #0F0F0F;
+}
+
+#sigchi-ex, #drupal-ex p{
+    font-size: 18px;
 }
 
 #projectImgGreen img{
     width: 500px !important;
 }
+
 #title-projects h1{
     font-size:50px;
+    margin-top:90px !important;
 }
 
 #title-projects p{
@@ -56,7 +93,7 @@
 }
 
 #buttonProject{
-    background-color: #8B61E3;
+    background-color: #12AB7A;
     color:white;
     border-radius: 5px;
     font-weight: bold;
@@ -76,15 +113,16 @@
 
 .pDesc {
     width: 380px;
+    color:white;
 }
-
+.pDesc h2{
+    color:#12AB7A;
+}
 #project {
     margin-bottom: 100px;
 }
 
-#experience #imgDiv {
-    margin-right: 80px;
-}
+
 
 #hyperlinkWeb {
     text-decoration: none;
@@ -94,16 +132,7 @@
 
 
 @media (min-width:270px) and (max-width:380px) {
-    .chi-ex{
-        opacity: 0; /* Inicialmente oculto */
-        transform: translateX(-120%); /* Movido hacia la izquierda */
-    }
-    .chi-ex.effect{
-        animation-delay: 0.5s;
-        animation-name: loadRight;
-        animation-duration: 1.2s;
-        animation-fill-mode: forwards; /* La animación retiene el estado final */
-    }
+
     
 
     #project {
@@ -140,7 +169,7 @@
         align-items: center;
     }
 
-    #block-experiences #drupal-ex, #sigchi-ex{
+    #block-experiences #drupal-ex, #sigchi-ex #pytuthor-ex{
         width: 320px;
     }
 
@@ -156,17 +185,7 @@
 
 @media (min-width:380px) and (max-width: 430px) {
 
-    .chi-ex{
-        opacity: 0; /* Inicialmente oculto */
-        transform: translateX(-120%); /* Movido hacia la izquierda */
-    }
-    .chi-ex.effect{
-        animation-delay: 0.5s;
-        animation-name: loadRight;
-        animation-duration: 1.2s;
-        animation-fill-mode: forwards; /* La animación retiene el estado final */
-    }
-    
+
 
     #project {
         text-align: center;
@@ -202,7 +221,7 @@
         align-items: center;
     }
 
-    #block-experiences #drupal-ex, #sigchi-ex{
+    #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
         width: 320px;
     }
 
@@ -217,16 +236,7 @@
 }
 
 @media (min-width:431px) and (max-width:780px){
-    .chi-ex{
-        opacity: 0; /* Inicialmente oculto */
-        transform: translateX(-120%); /* Movido hacia la izquierda */
-    }
-    .chi-ex.effect{
-        animation-delay: 0.5s;
-        animation-name: loadRight;
-        animation-duration: 1.2s;
-        animation-fill-mode: forwards; /* La animación retiene el estado final */
-    }
+
     
 
     #project {
@@ -264,7 +274,7 @@
        
     }
 
-    #block-experiences #drupal-ex, #sigchi-ex{
+    #block-experiences #drupal-ex, #sigchi-ex #pytuthor-ex{
         width: 390px;
     }
 

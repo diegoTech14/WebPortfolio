@@ -3,6 +3,7 @@
     padding:20px;
     width:580px;
 }
+
 #info-contact h4{
     color:gray;
 }
@@ -10,12 +11,15 @@
     margin-top:60px;
     font-size: 80px;
     font-weight: bold;
+    color:#12AB7A;
 }
 #contact-container{
-
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #252424;
+    
 }
 
 form{
@@ -23,8 +27,9 @@ form{
 }
 
 #button-email{
-    background-color: #8B61E3;
+    background-color: #12AB7A;
     color:white;
+    
 }
 
 #personal-data div i{
@@ -45,14 +50,16 @@ form{
 #socialNetworks div i{
     font-size: 50px;
     text-decoration:none;
-    color: #343331;
+    color: white;
+    transition: 0.2s ease-in-out;
 }
 label{
     font-weight: bold;
+    color:white;
 }
 
 #socialNetworks div i:hover{
-    color:#8B61E3;
+    color:#12AB7A;
 }
 
 #contact{

@@ -4,6 +4,7 @@ export function someFunction() {
     var components = document.getElementById('about-skills');
     var drupalExp = document.getElementById('drupal-ex');
     var chiExp = document.getElementById('sigchi-ex');
+    var pyExp = document.getElementById('py-tuthor');
 
     if (window.scrollY >= 500 && !(aboutMeElement.classList.contains('effect'))) {
         aboutMeElement.classList.add("effect");
@@ -16,6 +17,9 @@ export function someFunction() {
         }
         if (!chiExp.classList.contains('effect')) {
             chiExp.classList.add("effect");
+        }
+        if (!pyExp.classList.contains('effect')) {
+            pyExp.classList.add("effect");
         }
     }
     
