@@ -33,7 +33,7 @@ export const Contact = () => {
   }
   <Toaster position='bottom-left' />
   return (
-    <div id="contact-container">
+    <div id="contact-container" className='mb-5'>
 
       <div id="info-contact">
         <div>
@@ -103,18 +103,6 @@ export const Contact = () => {
               Submit
             </button>
           </form>
-        </div>
-
-        <div id="personal" className=" d-flex justify-content-center align-items-center flex-column">
-          <div id="socialNetworks" className="d-flex justify-content-center">
-            <div className='m-4'>
-              <a href="https://www.linkedin.com/in/diego-duarte-fern%C3%A1ndez-165445180/"><i className="bi bi-linkedin"></i></a>
-            </div>
-            <div className='m-4'>
-              <a href="https://github.com/diegoTech14"><i className="bi bi-github"></i></a>
-            </div>
-          </div>
-
         </div>
       </div>
       <Toaster />

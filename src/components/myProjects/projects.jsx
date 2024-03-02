@@ -57,7 +57,7 @@ export function Projects() {
       </div>
 
       <div id="carouselExample" class="carousel slide carousel-white">
-        <div class="carousel-inner">
+        <div className="carousel-inner">
           {projectsObjects.map((project, index) => (
             <React.Fragment key={index}>
               <div class={"carousel-item" + (index === 0 ? " active" : "")} key={index}>

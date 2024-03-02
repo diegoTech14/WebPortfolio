@@ -57,20 +57,7 @@ form{
     display:inline;
 }
 
-#socialNetworks div i{
-    font-size: 50px;
-    text-decoration:none;
-    color: white;
-    transition: 0.2s ease-in-out;
-}
-label{
-    font-weight: bold;
-    color:white;
-}
 
-#socialNetworks div i:hover{
-    color:#12AB7A;
-}
 
 #contact{
     display: flex;
@@ -113,13 +100,6 @@ label{
         flex-direction: column;
     }
 
-    #personal{
-        margin-top:35px;
-        display:flex;
-        padding-left:0px;
-
-    }
-
     #personal-data{
         text-align: center;
     }
@@ -160,13 +140,6 @@ label{
         flex-direction: column;
     }
 
-    #personal{
-        margin-top:35px;
-        display:flex;
-        padding-left:0px;
-
-    }
-
     #personal-data{
         text-align: center;
     }
@@ -203,13 +176,6 @@ label{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-    }
-
-    #personal{
-        margin-top:35px;
-        display:flex;
-        padding-left:0px;
-
     }
 
     #personal-data{

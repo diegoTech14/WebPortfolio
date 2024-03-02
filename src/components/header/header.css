@@ -70,7 +70,37 @@ header{
 }
 
 
+#socialNetworks{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin:40px 0px 40px 0px;
+    
+}
+
+#socialNetworks div #iconHeader{
+    font-size: 40px;
+    text-decoration:none;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+label{
+    font-weight: bold;
+    color:white;
+}
+
+#socialNetworks div #iconHeader:hover{
+    color:#12AB7A;
+}
+
+
 @media (min-width:270px) and (max-width:380px){
+
+    #socialNetworks{
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .container{
         height: 100%;
     }
@@ -108,6 +138,11 @@ header{
 }
 
 @media (min-width:380px) and (max-width: 430px){
+
+    #socialNetworks{
+        flex-direction: row;
+        justify-content: center;
+    }
     .container{
         height: 100%;
     }
@@ -145,7 +180,14 @@ header{
 
 }
 
+
+
 @media (min-width:431px) and (max-width:780px){
+    #socialNetworks{
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .container{
         height: 100%;
     }

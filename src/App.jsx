@@ -3,7 +3,7 @@ import { Header } from './components/header/header';
 import { About } from './components/about/about';
 import { Projects } from './components/myProjects/projects'; 
 import { Contact } from './components/contact/contact';
-
+import { References } from './components/references/references';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";

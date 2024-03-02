@@ -1,5 +1,8 @@
 import './header.css'
 import { TypeAnimation } from 'react-type-animation';
+import { SiCredly } from "react-icons/si";
+import { VscGithub } from "react-icons/vsc";
+import { GrLinkedin } from "react-icons/gr";
 export function Header() {
     return (
         <header className="container" id="header">
@@ -30,6 +33,22 @@ export function Header() {
                         Download CV
                     </button>
                 </a>
+                
+        <div id="personal">
+          <div id="socialNetworks" >
+            <div className='me-4'>
+              <a href="https://www.linkedin.com/in/diego-duarte-fern%C3%A1ndez-165445180/"><GrLinkedin id="iconHeader" /></a>
+            </div>
+            <div className='me-4'>
+              <a href="https://github.com/diegoTech14"><VscGithub id="iconHeader"/></a>
+            </div>
+            <div className=''>
+              <a href="https://www.credly.com/users/diego-duarte-fernandez"><SiCredly id="iconHeader"/></a>
+            </div>
+            
+          </div>
+
+        </div>
 
             </div>
             <div id="img">

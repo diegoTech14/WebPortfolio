@@ -1,0 +1,33 @@
+#carouselExample2{
+    width: 1200px;
+}
+
+h1{
+    color:white;
+}
+p{
+    padding:10px;
+}
+#card {
+    
+    background-color:black;
+    margin:30px;
+    color: white;
+    padding: 80px;
+}
+
+#card h5 {
+    font-size: 18px;
+    color: #12AB7A;
+}
+
+#iconRef {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#footer {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
