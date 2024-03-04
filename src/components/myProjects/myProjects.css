@@ -61,9 +61,10 @@
 
 #experiences{
     background-color: #0F0F0F;
+    padding:70px;
 }
 
-#sigchi-ex, #drupal-ex p{
+#sigchi-ex, #drupal-ex, #pytuthor-ex p{
     font-size: 18px;
 }
 
@@ -72,8 +73,8 @@
 }
 
 #title-projects h1{
-    font-size:50px;
-    margin-top:90px !important;
+    text-align: center;
+    font-size: 40px;
 }
 
 #title-projects p{

@@ -31,11 +31,3 @@ export default function Project(content) {
         </div>
     )
 }
-
-/* 
-/gandoca.png
-Gandoca Tours Web Page
-This is a web app made in Wordpress and my role in this project was support the page, fix some errors and create new content and sections.
-"https://www.gandocatours.com/" 
-Visit page
-*/

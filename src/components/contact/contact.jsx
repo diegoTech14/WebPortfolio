@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser'
 import { useRef } from 'react';
 import { Toaster, toast } from 'sonner';
 
-export const Contact = () => {
+export const Contact = ({t}) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -37,12 +37,11 @@ export const Contact = () => {
 
       <div id="info-contact">
         <div>
-          <h1>Let's connect!</h1>
+          <h1>{t("contactTitle")}</h1>
           <br />
-          <h4>Thank you very much for watch my portfolio, contact me
-            through an Email and let's talk about a new opportunity to combine knowledge, create satisfactory software and experiences</h4>
+          <h4>{t("contactInfo")}</h4>
           <br />
-          <h5><span>I'll be excited to help your team and your company!</span> 🧑🏽‍💻</h5>
+          <h5><span>{t("contactLegend")}</span> 🧑🏽‍💻</h5>
         </div>
         <div>
           <img src="/logo2.png" alt="" />
@@ -54,7 +53,7 @@ export const Contact = () => {
           <form ref={form} onSubmit={sendEmail} id="formContact">
             <div className="mb-3">
               <label for="exampleInputEmail1" class="form-label">
-                Complete name
+                {t("cName")}
               </label>
               <input
                 type="text"
@@ -66,7 +65,7 @@ export const Contact = () => {
             </div>
             <div className="mb-3">
               <label for="exampleInputEmail1" class="form-label">
-                Your E-mail
+              {t("yEmail")}
               </label>
               <input
                 type="email"
@@ -78,7 +77,7 @@ export const Contact = () => {
             </div>
             <div className="mb-3">
               <label for="exampleInputPassword1" class="form-label">
-                Subject
+              {t("subject")}
               </label>
               <input
                 type="text"
@@ -89,7 +88,7 @@ export const Contact = () => {
             </div>
             <div className="mb-3">
               <label for="exampleInputPassword1" class="form-label">
-                Message
+              {t("message")}
               </label>
               <textarea
                 type="text"
@@ -100,7 +99,7 @@ export const Contact = () => {
               />
             </div>
             <button type="submit" className="btn rounded-1 fw-bold w-100" id="button-email">
-              Submit
+            {t("submit")}
             </button>
           </form>
         </div>

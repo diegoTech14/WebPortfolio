@@ -1,5 +1,10 @@
-#carouselExample2{
-    width: 1200px;
+#container-references{
+    display: flex;
+    flex-direction: column;
+}
+
+#references{
+    display: flex;
 }
 
 h1{
@@ -8,12 +13,36 @@ h1{
 p{
     padding:10px;
 }
+
+#header-card{
+    display:flex;
+    align-items: center;
+}
+
+#date{
+    text-align: center;
+    background: rgba(18, 171, 122,0.8);
+    border-radius: 5px;
+    padding:15px;
+    margin-right:20px;
+}
+
+#info-reference{
+    margin:20px 0px 0px 0px;
+    font-size: 18px;
+}
+
+#info-reference div{
+    margin:5px;
+}
+
 #card {
-    
+    width: 600px;
+    border-radius: 5px;
     background-color:black;
     margin:30px;
     color: white;
-    padding: 80px;
+    padding: 50px;
 }
 
 #card h5 {
@@ -26,8 +55,45 @@ p{
     font-size: 20px;
 }
 
-#footer {
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
+
+@media (min-width:270px) and (max-width:380px) {
+    #references{
+        flex-direction: column;
+    }
+
+    #card{
+        width:320px;
+    }
+    #header-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #date{
+        margin-right:0px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:380px) and (max-width: 430px) {
+    #references{
+        flex-direction: column;
+    }
+
+    #card{
+        width:400px;
+    }
+
+
+}
+
+@media (min-width:431px) and (max-width:780px){
+    #references{
+        flex-direction: column;
+    }
+
+    #card{
+        width:500px;
+    }
 }

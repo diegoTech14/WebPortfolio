@@ -1,6 +1,12 @@
 import './navbar.css';
+import i18n from '../../i18n.js';
+import { LuLanguages } from "react-icons/lu";
 
-export function Navbar() {
+export function Navbar({t}) {
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
   return (
 
     <nav className="navbar navbar-expand-lg fixed-top " id="navbar" data-bs-theme="dark">
@@ -16,17 +22,40 @@ export function Navbar() {
           </a>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item" id="item">
-              <a class="nav-link" href="#header">Home</a>
+              <a class="nav-link" href="#header">{t("Home")}</a>
             </li>
             <li className="nav-item" id="item">
-              <a className="nav-link" href="#projects">Projects</a>
+              <a className="nav-link" href="#about-container">{t("About-me")}</a>
+            </li>
+
+            <li className="nav-item" id="item">
+              <a className="nav-link" href="#container-badges">{t("Badges")}</a>
             </li>
             <li className="nav-item" id="item">
-              <a className="nav-link" href="#about-container">About Me</a>
+              <a className="nav-link" href="#projects">{t("Projects")}</a>
             </li>
             <li className="nav-item" id="item">
-              <a className="nav-link" href="#contact-container">Contact Me</a>
+              <a className="nav-link" href="#container-references">{t("references")}</a>
             </li>
+            <li className="nav-item" id="item">
+              <a className="nav-link" href="#contact-container">{t("Contact-me")}</a>
+            </li>
+
+            <li class="nav-item dropdown dropstart">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <LuLanguages />
+              </a>
+              <ul class="dropdown-menu dropdown-menu-lg-start" aria-labelledby="navbarDropdown">
+                <li><button class="dropdown-item" onClick={() => changeLanguage('en')}>
+
+                  <img src="./flagEnglish.png" alt="" id="flag" /> {t("English")}
+                </button></li>
+                <li><button class="dropdown-item" onClick={() => changeLanguage('es')}>
+                  <img src="./flagSpain.png" alt="" id="flag" /> {t("Spain")}
+                </button></li>
+              </ul>
+            </li>
+
           </ul>
 
         </div>

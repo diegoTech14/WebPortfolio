@@ -3,16 +3,17 @@ import { TypeAnimation } from 'react-type-animation';
 import { SiCredly } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { GrLinkedin } from "react-icons/gr";
-export function Header() {
+
+export function Header({t}) {
     return (
         <header className="container" id="header">
             <div id="fast-presentation">
                 <div id="text">
                     <div id="text-animated">
-                        <h1>Hello, <br></br>I'm Diego Duarte</h1>
+                        <h1>{t("greeting")}, <br></br> {t("me")}</h1>
                         <TypeAnimation
                             sequence={[
-                                "A Backend Developer",
+                                t("rol"),
                                 1500
                             ]}
                             wrapper="span"
@@ -21,16 +22,14 @@ export function Header() {
                             style={{ fontSize: '30px', color: "#12AB7A" }}
                         />
                     </div>
-
                     <p>
-                        I like to solve problems, desing and write code for the backend side of any application, 
-                        my goal is look for better tailored solutions using software tools
+                        {t("resume")}
                     </p>
                 </div>
 
                 <a className="fw-bold fs-5" href="/cv.pdf" download={"cv.pdf"} aria-disabled="true">
                     <button type="button" id="cvButton">
-                        Download CV
+                        {t("cv")}
                     </button>
                 </a>
                 

@@ -12,34 +12,31 @@ import { FaAws } from "react-icons/fa6";
 import './about.css';
 
 
-export function About() {
+export function About({t}) {
 
   return (
     <div id="about-container">
       <div id="about-me" className="shadow about-me">
-        <h3 className="fw-bold">Me as a developer</h3>
+        <h3 className="fw-bold">{t("meAs")}</h3>
         <p class="mt-4" id="about-me-text">
-          Data, databases and logic are topics that I'm apassionate about, I really love solving new challenges. As a backend developer I consider it very important
-          continue updating knowledge about trends and mantaining an continuos learning that allows me grow professionally and develop new skills.
+          {t('meAsInfo')}
         </p>
 
-        <p className="mt-4" id="tag-about">Creating solutions makes me very happy! 🧑🏽‍💻</p>
+        <p className="mt-4" id="tag-about">{t('meAsTag')}</p>
       </div>
       <div id="about-skills" className="about-skills">
         <div className="shadow" id="component">
-          <h3 className="fw-bold">About me</h3>
-          <p>I'm <span>Diego Duarte Fernández</span>, I'm a jr. Developer who likes helping other programmers, talking about technology, animals and the ocean.
-            I'm a <span>proactive</span>, <span>kind</span> and <span>responsable</span> person I have <span>communication</span> skills and ability to <span>work in a team</span>. Also sometimes I'm perfectionist
-            and many times I like to take the initiative to do or create something. I really like to programming, solve a lot of challenges and get feedback to improve myself.
+          <h3 className="fw-bold">{t('aboutmeTitle')}</h3>
+          <p>{t("im")} <span>Diego Duarte Fernández</span>, {t("whatIm")}
+            {t("im")} {t("a")} <span>{t("proact")}</span>, <span>{t("kind")}</span> {t("and")} <span>{t("responsable")}</span> {t("person")} <span>{t("communication")}</span> {t("skills")} <span>{t("work")}</span>. {t("perfectionist")}
+            {t("aboutSecondPart")}
           </p>
         </div>
 
         <div id="component" className="shadow">
           <div>
-            <h3 className="fw-bold">Main technologies</h3>
-            <p>These are my most outstanding technologies in wich I have worked on numerous projects,
-              I like to know a little about other areas such as cybersecurity, frontend, software architecture based on
-              Backend development.
+            <h3 className="fw-bold">{t("mainTech")}</h3>
+            <p>{t("mainTechInfo")}
             </p>
             <DiNodejsSmall id="icon" />
             &nbsp;&nbsp;&nbsp;
@@ -52,24 +49,20 @@ export function About() {
             <FaGithub id="icon" />
             &nbsp;&nbsp;&nbsp;
             <FaBootstrap id="icon" />
-            &nbsp;&nbsp;&nbsp;
-            <FaReact id="icon" />
+
 
             <div id="description-tech">
-              <p className="mt-3" >NodeJS, MySQL, Python, Git/Github, Bootstrap, React</p>
+              <p className="mt-3" >NodeJS, MySQL, Python, Git/Github, Bootstrap</p>
             </div>
           </div>
 
         </div>
         <div id="component" className="shadow">
           <div>
-            <h3 className="fw-bold">Other technologies</h3>
+            <h3 className="fw-bold">{t("otherTech")}</h3>
             <p>
-
-              Everyday I like to visualize myself as a good programmer and gradually I like to learn new technologies
-              to complement my TI knowledge. I'm capacitated in other technologies such as
+              {t("otherTechInfo")}
             </p>
-
             <FaJava id="icon" />
             &nbsp;&nbsp;&nbsp;
             <FaPhp id="icon" />
@@ -77,8 +70,10 @@ export function About() {
             <FaAws id="icon" />*/}
             &nbsp;&nbsp;&nbsp;
             <SiDocker id="icon" />
+            &nbsp;&nbsp;&nbsp;
+            <FaReact id="icon" />
             <div id="description-tech">
-              <p className="mt-3" >Java, php, Docker</p>
+              <p className="mt-3" >Java, php, Docker, React</p>
             </div>
 
           </div>
