@@ -1,7 +1,7 @@
 import { Navbar } from './components/navbar/navbar';
 import { Header } from './components/header/header';
 import { About } from './components/about/about';
-import { Projects } from './components/myProjects/projects';
+import { Projects } from './components/myProjects/projects'; 
 import { Contact } from './components/contact/contact';
 import { References } from './components/references/references';
 import { Badges } from './components/badges/badges';
@@ -19,13 +19,13 @@ function App() {
   };
   return (
     <>
-      <Navbar t={t} />
-      <Header t={t} />
-      <About t={t} />
-      <Badges t={t} />
-      <Projects t={t} />
-      <References t={t} />
-      <Contact t={t} />
+      <Navbar t={t}/>
+      <Header t={t}/>
+      <About t={t}/>
+      <Badges t={t}/>
+      <Projects t={t}/>
+      <References t={t}/>
+      <Contact t={t}/>
     </>
   )
 }
