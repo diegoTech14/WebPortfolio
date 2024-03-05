@@ -120,7 +120,7 @@ label{
     #img img{
         width: 270px;
         height: 290px;
-        margin-left: 0px;
+        margin-left: -20px;
     }
     #cvButton{
         margin-left:0px;
@@ -133,7 +133,7 @@ label{
         flex-direction: column;
         text-align: center;
         margin-top: 50px;
-        margin-bottom:100px;
+        margin-bottom:50px;
     } 
 }
 

@@ -4,8 +4,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
- 
 }
+
 
 #title-projects{
 
@@ -61,7 +61,10 @@
 
 #experiences{
     background-color: #0F0F0F;
-    padding:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #sigchi-ex, #drupal-ex, #pytuthor-ex p{
@@ -72,14 +75,16 @@
     width: 500px !important;
 }
 
-#title-projects h1{
+#title-experiences h1{
     text-align: center;
     font-size: 40px;
+    color:white;
 }
 
-#title-projects p{
-    font-size:20px;
-    color:gray;
+#title-experiences p{
+    font-size:18px;
+    color:white;
+    text-align: center;
 }
 
 #projects h1 {
@@ -129,7 +134,10 @@
 
 @media (min-width:270px) and (max-width:380px) {
 
-    
+    #projects{
+
+        width: auto;
+    }
 
     #project {
         text-align: center;
@@ -166,7 +174,7 @@
     }
 
     #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
-        width: 320px;
+        width: auto;
     }
 
     #experience #expImg{
@@ -181,8 +189,6 @@
 
 @media (min-width:380px) and (max-width: 430px) {
 
-
-
     #project {
         text-align: center;
         display: flex;
@@ -190,6 +196,7 @@
         justify-content: center;
         align-items: center;
     }
+    
     #iconP{
         font-size:35px;
     }
@@ -218,7 +225,7 @@
     }
 
     #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
-        width: 320px;
+        width: auto;
     }
 
     #experience #expImg{
@@ -271,7 +278,7 @@
     }
 
     #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
-        width: 480px;
+        width: auto;
     }
 
     #experience #expImg{

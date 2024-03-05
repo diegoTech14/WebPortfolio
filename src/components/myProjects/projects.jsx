@@ -81,7 +81,7 @@ export function Projects({t}) {
       </div>
 
       <div id="experiences" className='pt-2 pb-5'>
-        <div id="title-projects">
+        <div id="title-experiences">
           <h1>
             {t("experiencesTitle")}
           </h1>

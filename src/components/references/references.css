@@ -62,8 +62,9 @@ p{
     }
 
     #card{
-        width:320px;
+        width:auto;
     }
+    
     #header-card{
         flex-direction: column;
         justify-content: center;
@@ -82,9 +83,9 @@ p{
     }
 
     #card{
-        width:400px;
+        width:auto;
     }
-
+    
 
 }
 
@@ -94,6 +95,7 @@ p{
     }
 
     #card{
-        width:500px;
+        width:auto;
     }
+    
 }
