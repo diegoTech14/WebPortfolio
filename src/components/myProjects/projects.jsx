@@ -57,7 +57,7 @@ export function Projects({t}) {
         {t("projectsSubtitleTwo")}
         </p>
       </div>
-
+      
       <div id="carouselExample" class="carousel slide carousel-white">
         <div className="carousel-inner">
           {projectsObjects.map((project, index) => (
@@ -81,7 +81,7 @@ export function Projects({t}) {
       </div>
 
       <div id="experiences" className='pt-2 pb-5'>
-        <div id="title-experiences">
+        <div id="title-projects">
           <h1>
             {t("experiencesTitle")}
           </h1>

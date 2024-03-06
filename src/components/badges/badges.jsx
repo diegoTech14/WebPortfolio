@@ -19,7 +19,7 @@ export function Badges({t}) {
                     </p>
                 </div>
             </div>
-            <div id="cert">
+            <div id="cert" className="shadow">
                 <div id="badge">
                     <img src="./ciber.png" alt="" />
                 </div>

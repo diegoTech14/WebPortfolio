@@ -37,10 +37,10 @@
     "badgesSubtitle":"Here you can see my most badges and certifications that I've earn throughout my career",
     "pyTitle":"Python Essentials 1",
     "pyIssued":"Issued by Cisco",
-    "pyInfo":"Cisco, in collaboration with OpenEDG Python Institute, verifies the earner of this badge successfully completed the Python Essentials 1 course and achieved the student level credentials. Earners have knowledge of the concepts of computer programming, the syntax and semantics of the Python language as well as demonstrate the ability to accomplish coding tasks related to the essentials of programming in the Python language and resolve implementation challenges using the Python Standard Library.",
+    "pyInfo":"Cisco, in collaboration with OpenEDG Python Institute, verifies the earner of this badge successfully completed the Python Essentials 1 course and achieved the student level credentials.",
     "ciberTitle":"Cibersecurity Fundamentals",
     "ciberIssued":"Issued by IBM SkillsBuild",
-    "ciberInfo":"This credential earner demonstrates a foundational understanding of cybersecurity concepts, objectives, and practices. This includes cyber threat groups, types of attacks, social engineering, case studies, overall security strategies, cryptography, and common approaches that organizations take to prevent, detect, and respond to cyber attacks. This also includes an awareness of the job market. Earners can use this knowledge to pursue further education for a variety of roles in cybersecurity.",
+    "ciberInfo":"This credential earner demonstrates a foundational understanding of cybersecurity concepts, objectives, and practices. This includes cyber threat groups, types of attacks, social engineering, case studies, overall security strategies, cryptography, and common approaches that organizations take to prevent, detect, and respond to cyber attacks.",
     "projectTitle":"Featured Projects",
     "projectsSubtitle":"I had have the experience of creating real solutions for pymes, ",
     "projectsSubtitleTwo":" also I have created some personal and academic projects that I am proud of them",
@@ -79,6 +79,6 @@
     "danielGrade":"College Degree in Systems Engineering",
     "danielPosition":"Data Engineer",
     "referenceTitle":"Professional References",
-    "referenceSubTitle":" In this section, I share opinions from colleagues, and supervisors who have been part of my professional career",
+    "referenceSubTitle":" In this section, I share opinions from colleagues, and supervisors who have been part of my professional career ",
     "referenceSubTitleTwo":"these references provide a more complete view about my work performance, skills and contributions in different projects and roles"
 }

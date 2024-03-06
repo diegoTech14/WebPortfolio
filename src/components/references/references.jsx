@@ -39,7 +39,7 @@ export function References({t}) {
                 </div>
                 <div id="references">
                     {content.map((reference, index) => (
-                        <div id="card" key={index} className="shadow">
+                        <div id="card" key={index} className="">
                             <div id="header-card">
                                 <div id="date">
                                     <div><h4>{reference.day}</h4></div>
