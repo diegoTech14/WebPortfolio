@@ -19,7 +19,7 @@ export function Header({t}) {
                             wrapper="span"
                             speed={20}
 
-                            style={{ fontSize: '30px', color: "#12AB7A" }}
+                            style={{ fontSize: '30px', color: "#12AB7A", fontFamily: "Rubik"}}
                         />
                     </div>
                     <p>

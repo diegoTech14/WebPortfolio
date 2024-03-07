@@ -41,18 +41,21 @@ span{
 }
 
 #cvButton{
-    background-color: #fff;
+    background-color: #0F0F0F;
     font-weight: bold;
     padding:15px 25px 15px 20px;
     margin-top:20px;
     border-radius: 5px;
-    border:none;
+    border:1px solid black;
+    color:white;
     transition: 0.2s ease-in;
 }
 
 #cvButton:hover{
-    background-color: #12AB7A;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.192);
     color:white;
+    
 }
 
 header img{
@@ -74,23 +77,35 @@ header{
     flex-direction: row;
     justify-content: start;
     margin:40px 0px 40px 0px;
+
     
 }
+#socialNetworks div{
+    background-color: #0F0F0F;
+    padding:10px;
+    border:1px solid black;
+    border-radius: 10px;
+    transition: 400ms;
+}
 
+#socialNetworks div:hover{
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.192);
+}
 #socialNetworks div #iconHeader{
     font-size: 40px;
     text-decoration:none;
+ 
     color: white;
     transition: 0.2s ease-in-out;
+    
+
 }
 label{
     font-weight: bold;
     color:white;
 }
 
-#socialNetworks div #iconHeader:hover{
-    color:#12AB7A;
-}
 
 
 @media (min-width:270px) and (max-width:380px){
@@ -145,7 +160,6 @@ label{
     }
     .container{
         height: 100%;
-        margin-top:50px;
     }
     #header{
         margin-top:180px;

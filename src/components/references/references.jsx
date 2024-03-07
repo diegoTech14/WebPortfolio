@@ -31,11 +31,6 @@ export function References({t}) {
                     <h1>
                         {t("referenceTitle")}
                     </h1>
-                    <p>
-                        {t("referenceSubTitle")}
-                        {t("referenceSubTitleTwo")}<br />
-                        
-                    </p>
                 </div>
                 <div id="references">
                     {content.map((reference, index) => (

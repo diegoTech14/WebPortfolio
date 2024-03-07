@@ -3,9 +3,15 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
+}
+#slider{
+    width:80%
 }
 
-
+#projectImg img{
+    width: 200px;
+}
 
 #block-experiences{
     display: flex;
@@ -63,9 +69,6 @@
     font-size: 18px;
 }
 
-#projectImgGreen img{
-    width: 500px !important;
-}
 
 #title-experiences h1{
     text-align: center;
@@ -84,6 +87,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top:100px;
+    padding:40px;
 }
 
 
@@ -117,11 +122,17 @@
     margin-bottom: 20px;
 }
 
-.pDesc {
+#pDesc {
     width: 380px;
     color:white;
+    background-color: black;
+    height: 450px;
+    width: 500px;
+    padding: 40px;
+    margin-left:40px;
 }
-.pDesc h2{
+
+#pDesc h2{
     color:#12AB7A;
 }
 #project {
@@ -157,7 +168,7 @@
         width: 270px;
     }
 
-    .pDesc {
+    #pDesc {
         width: 270px;
     }
 
@@ -208,7 +219,7 @@
         width: 270px;
     }
 
-    .pDesc {
+    #pDesc {
         width: 270px;
     }
 
@@ -259,7 +270,7 @@
         width: 390px;
     }
 
-    .pDesc {
+    #pDesc {
         width: 380px;
     }
 

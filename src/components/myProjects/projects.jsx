@@ -11,10 +11,22 @@ import { FaAngular } from "react-icons/fa";
 import { FaWordpress } from "react-icons/fa";
 import Project from './individualProject';
 import React from 'react';
+import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
-
-export function Projects({t}) {
+export function Projects({ t }) {
+  let settings = {
+    dots: true,
+    infinite: true,
+    autoplay:true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade:true
+  }
   const projectsObjects = [
     {
       title: t("greenTitle"),
@@ -52,42 +64,29 @@ export function Projects({t}) {
     <div id="projects">
       <div id="title-projects">
         <h1>{t("projectTitle")}</h1>
-        <p>
-        {t("projectsSubtitle")} <br />
-        {t("projectsSubtitleTwo")}
-        </p>
+
       </div>
-      
-      <div id="carouselExample" class="carousel slide carousel-white">
-        <div className="carousel-inner">
+
+      <div id="slider">
+        <Slider {...settings} >
           {projectsObjects.map((project, index) => (
-            <React.Fragment key={index}>
-              <div class={"carousel-item" + (index === 0 ? " active" : "")} key={index}>
-
-                <Project content={project}></Project>
-              </div>
-            </React.Fragment>
-          ))}
-
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <React.Fragment key={index}>
+            <div key={index}>
+              <Project content={project}></Project>
+            </div>
+          </React.Fragment>
+        ))}
+        </Slider>
       </div>
+
+
 
       <div id="experiences" className='pt-2 pb-5'>
         <div id="title-projects">
           <h1>
             {t("experiencesTitle")}
           </h1>
-          <p>{t("experiencesSubtitle")} <br />
-          {t("experiencesSubtitleTwo")}
-          </p>
+
         </div>
         <div id="block-experiences">
           <div id="drupal-ex" className='shadow drupal-ex'>

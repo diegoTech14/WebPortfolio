@@ -3,6 +3,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding:60px;
 }
 
 #badge img{
@@ -10,18 +11,25 @@
     height: 200px;
     padding:10px;
 }
+
 #cert{
-    background-color: black;
+    background-color: #0F0F0F;
     padding:20px;
-    border-radius: 5px;
+    border-radius: 15px;
+    border:1px solid black;
     color:white;
-    width:70%;
+    width:50%;
     display:flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    transition: 400ms;
 }
 
+#cert:hover{
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.192);
+}
 #cert h5{
     color:#12AB7A;
 }
@@ -32,13 +40,19 @@
 
 
 @media (min-width:270px) and (max-width:380px){
+
     #info-badge{
         padding:0px;
     }
 
     #cert{
+        width: 320px;
         text-align: center;
         flex-direction: column;
+    }
+
+    #cert p{
+        text-align: justify;
     }
 }
 
@@ -50,8 +64,12 @@
     }
 
     #cert{
+        width: auto;
         text-align: center;
         flex-direction: column;
+    }
+    #cert p{
+        text-align: justify;
     }
 
 }
@@ -64,8 +82,12 @@
     }
 
     #cert{
+        width: auto;
         text-align: center;
         flex-direction: column;
+    }
+    #cert p{
+        text-align: justify;
     }
 
 }

@@ -5,6 +5,7 @@
     margin-top:50px;
     padding:20px;
     width:580px;
+
 }
 
 #info-contact img{
@@ -28,8 +29,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #0F0F0F;
-    
+
 }
 
 form{
@@ -64,7 +64,9 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding:40px;
+    background-color: #0F0F0F;
+    border-radius: 15px;
 }
 
 
@@ -114,6 +116,7 @@ form{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+       
     }
 
     #info-contact{
@@ -168,8 +171,7 @@ form{
         font-size:15px;
     }
     #formContact{
-        padding:20px;
-        width:430px;
+        width:380px;
     }
     #contact{
         display: flex;

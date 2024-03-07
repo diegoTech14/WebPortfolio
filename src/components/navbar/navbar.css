@@ -4,11 +4,12 @@
     
 }
 
+
 #navbar{
     padding: 10px 30px 10px 30px; 
     width: 100%;
-    background-color: black;
-
+    backdrop-filter: blur(6px);
+    background-color: rgba(1, 1, 1, 0.7);
     font-size: 18px;
 }
 

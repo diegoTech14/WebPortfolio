@@ -1,5 +1,12 @@
 body, #experiences, #contact-container{
-    background-color: #1F1F1F;
+    background-color: black;
+}
+h2{
+    font-family: "Rubik", sans-serif;
+}
+h1{
+    font-family: "Rubik", sans-serif;
+    font-size:60px;
 }
 
 #title-projects{
@@ -8,12 +15,17 @@ body, #experiences, #contact-container{
     padding: 20px;
     margin-bottom: 50px;
     color:white;
-    width: 80%;
 }
 
 #title-projects p{
     font-size:18px;
 
+}
+
+@media (min-width:270px) and (max-width:380px) {
+    h1{
+        font-size:50px;
+    }
 }
 
 

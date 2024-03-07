@@ -19,8 +19,9 @@ h1{
 
 #date{
     text-align: center;
-    background: rgba(18, 171, 122,0.8);
-    border-radius: 5px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(18, 171, 122,0.8);
+    border-radius: 10px;
     padding:15px;
     margin-right:20px;
 }
@@ -37,10 +38,18 @@ h1{
 #card {
     width: 600px;
     border-radius: 5px;
-    background-color:black;
+    background-color:#0F0F0F;
+    border:1px solid black;
+    border-radius: 15px;
     margin:30px;
     color: white;
     padding: 50px;
+    transition: 400ms;
+}
+
+#card:hover{
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.192);
 }
 
 #card h5 {
@@ -48,10 +57,7 @@ h1{
     color: #12AB7A;
 }
 
-#iconRef {
-    margin-right: 10px;
-    font-size: 20px;
-}
+
 
 
 @media (min-width:270px) and (max-width:380px) {

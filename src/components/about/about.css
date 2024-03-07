@@ -7,11 +7,6 @@
     padding: 100px;
 }
 
-#second-container{
-    background-color: #0F0F0F;
-}
-
-
 .fast-presentation h1{
     font-size:55px;
 }
@@ -21,14 +16,20 @@
 }
 
 #about-me {
-    background-color: black;
+    background-color: #0F0F0F;
     text-align: start;
     width: 1400px;
     font-size: 20px;
+    margin-bottom: 10px;
     padding: 20px;
-    border-radius: 5px;
-    border-top: 6px solid #12AB7A;
-    transition: 350ms ease-out;
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: 400ms;
+}
+
+#about-me:hover{
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.192);
 }
 
 #about-me h3{
@@ -39,10 +40,6 @@
 #tag-about {
     color: #12AB7A;
     font-weight: bold;
-}
-
-#about-me:hover {
-    bottom: 48px;
 }
 
 #about-me-text {
@@ -66,35 +63,33 @@
     align-items: center;
 }
 
-
 #component span{
     color:#12AB7A;
 }
+
 #about-skills #component p{
     color:gray;
 }
+
+
+
 #about-skills #component {
     line-height: 1.7;
-    background-color: black;
+    background-color: #0F0F0F;
     color:white;
     padding: 20px;
-    border-radius: 5px;
-    border-top: 6px solid #0F0F0F;
+    border-radius: 15px;
     margin: 10px 10px 10px 10px;
     width: 500px;
-    transition: 400ms ease-in-out;
+    border: 1px solid black;
+    transition: 400ms;
 }
 
-#about-skills #component:hover {
-    border-top: 6px solid #12AB7A;
-    bottom: 20px;
-}
 
-#component:hover{
-    border-top: 6px solid #12AB7A;
-    bottom: 20px;
+#about-skills #component:hover{
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.192);
 }
-
 #about-skills #component:hover #icon{
     color:#12AB7A;
 }
