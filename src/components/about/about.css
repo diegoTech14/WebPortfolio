@@ -120,16 +120,16 @@
         color: #727272
     }
     #about-me{
-        width: 260px;
+        width: auto;
     }
 
     #about-skills #component{
-        width: 260px;
+        width: auto;
         margin-top: 30px;
     }
     
     #about-skills {
-        width:260px;
+        width:auto;
         display: flex;
         flex-direction: column;
     }
@@ -205,7 +205,7 @@
     
     #about-skills {
 
-        width:380px;
+        width:auto;
         display: flex;
         flex-direction: column;
         height: 100%;

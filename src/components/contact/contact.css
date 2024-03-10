@@ -127,14 +127,14 @@ form{
         font-size:15px;
     }
     #formContact{
-        width:320px;
+        width:auto;
     }
     #contact{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 360px;
+        width: auto;
     }
 
     #personal-data{
@@ -165,14 +165,14 @@ form{
         font-size:15px;
     }
     #formContact{
-        width:380px;
+        width:auto;
     }
     #contact{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 420px;
+        width: auto;
     }
 
     #personal-data{
