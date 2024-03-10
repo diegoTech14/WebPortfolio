@@ -92,15 +92,7 @@ form{
         font-size:15px;
     }
     #formContact{
-        width:260px;
-        padding: 10px;
-    }
-    #contact{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 260px;
+        width:auto;
     }
 
     #personal-data{
