@@ -3,7 +3,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding:60px;
+    padding-top:60px;
 }
 
 #badge img{
@@ -46,6 +46,7 @@
     }
 
     #cert{
+        margin: 10px;
         width: auto;
         text-align: center;
         flex-direction: column;
@@ -62,6 +63,7 @@
     }
 
     #cert{
+        margin: 10px;
         width: auto;
         text-align: center;
         flex-direction: column;

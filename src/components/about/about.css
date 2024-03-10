@@ -23,7 +23,7 @@
     width: 1400px;
     font-size: 20px;
     padding: 20px;
-    border-radius: 8px;;
+    border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.157);
     transition: 400ms;
 }
@@ -120,6 +120,7 @@
         color: #727272
     }
     #about-me{
+        margin:10px;
         width: auto;
     }
 
