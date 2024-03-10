@@ -78,7 +78,8 @@
     }
 
     #cert{
-        width: 350px;
+        margin: 10px;
+        width: auto;
         text-align: center;
         flex-direction: column;
     }
