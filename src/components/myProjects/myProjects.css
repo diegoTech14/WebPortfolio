@@ -1,17 +1,95 @@
+#projects{
+    padding-top:40px;
+}
 #project{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-#slider{
-    width:80%
+
+
+#individualProject{
+    width: 70%;
+    background-color: #1F1F1F;
+    padding:30px;
+    border-radius: 8px;
+    border:1px solid black;
+    padding: 30px;
+    transition: 400ms;
 }
+
+#individualProject:hover{
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.192);
+}
+
+#individualProject:hover #pDesc{
+    background-color: #0F0F0F;
+}
+
+#insideProject{
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+}
+
+#individualProject:hover #buttonProject{
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.192);
+}
+
+#buttonProject{
+    background-color: #1F1F1F;
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding:10px 20px 10px 20px;
+    border:1px solid #2F2F2F;
+    font-size: 18px;
+    transition: 400ms;
+}
+
+
+#pDesc {
+    margin-left:20px;
+    color:white;
+    border-radius: 8px;
+    background-color:#2F2F2F;
+    width: auto;
+    padding: 30px;
+
+}
+
+#pDesc h2{
+    font-size:25px;
+}
+
 
 #projectImg img{
     width: 200px;
+    border-radius: 8px;
 }
+
+#projects h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#iconP{
+    font-size:35px;
+
+}
+
+
+#project div img {
+    height: 300px;
+    width: 500px;
+}
+
 
 #block-experiences{
     display: flex;
@@ -25,9 +103,10 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    width: 450px;
+    width: 430px;
     margin: 30px;
 }
+
 
 
 #drupal-ex{
@@ -57,18 +136,6 @@
     color:white;
 }
 
-#experiences{
-    background-color: #0F0F0F;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#sigchi-ex, #drupal-ex, #pytuthor-ex p{
-    font-size: 18px;
-}
-
 
 #title-experiences h1{
     text-align: center;
@@ -82,99 +149,46 @@
     text-align: center;
 }
 
-#projects{
+
+
+#experiences{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin-top:100px;
-    padding:40px;
+    align-items: center;
 }
 
 
-#projects h1 {
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+#sigchi-ex, #drupal-ex, #pytuthor-ex p{
+    font-size: 18px;
 }
-
-#iconP{
-    font-size:35px;
-
-}
-
-#buttonProject{
-    background-color: #12AB7A;
-    color:white;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-
-#project div img {
-    height: 450px;
-    width: 900px;
-}
-
-#experience #expImg {
-    width: 900px;
-    height: 500px;
-    margin-bottom: 20px;
-}
-
-#pDesc {
-    width: 380px;
-    color:white;
-    background-color: black;
-    height: 450px;
-    width: 500px;
-    padding: 40px;
-    margin-left:40px;
-}
-
-#pDesc h2{
-    color:#12AB7A;
-}
-#project {
-    margin-bottom: 100px;
-}
-
-
-
 
 
 @media (min-width:270px) and (max-width:380px) {
 
-    #projects{
-
-        width: auto;
-    }
-
-    #project {
-        text-align: center;
+    
+    #individualProject{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    #iconP{
-        font-size:35px;
-    }
-    #project {
-        margin-bottom: 50px;
+        padding: 10px;
+        width: 250px;
     }
 
-    #subTitleProjects {
-        width: 270px;
-    }
-
-    #pDesc {
-        width: 270px;
+    #insideProject{
+        flex-direction: column;
     }
 
     #project div img {
-        width: 270px;
-        height: 140px;
+        width: 230px;
+        height: 250px;
+    }
+
+    #pDesc{
+        margin-left: 0px;
+        margin-top: 10px;
+        width: auto;
+        padding: 10px;
+        text-align: center;
     }
 
     #block-experiences{
@@ -186,16 +200,13 @@
 
     #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
         width: auto;
+        margin: 10px;
     }
 
-    #experience #expImg{
-        width:320px;
+    #projects{
+        padding-top:0px;
     }
 
-    #projectImgGreen img{
-        width: 250px !important;
-        height: 200px !important;
-    }   
 }
 
 @media (min-width:380px) and (max-width: 430px) {
@@ -208,6 +219,16 @@
         align-items: center;
     }
     
+    #individualProject{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 350px;
+    }
+
+        #insideProject{
+        flex-direction: column;
+    }
     #iconP{
         font-size:35px;
     }
@@ -215,67 +236,17 @@
         margin-bottom: 50px;
     }
 
-    #subTitleProjects {
-        width: 270px;
-    }
 
-    #pDesc {
-        width: 270px;
-    }
-
-    #project div img {
-        width: 270px;
-        height: 140px;
-    }
-
-    #block-experiences{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
+    #pDesc{
+        margin-left: 0px;
+        margin-top: 10px;
         width: auto;
-    }
-
-    #experience #expImg{
-        width:320px;
-    }
-
-    #projectImgGreen img{
-        width: 250px !important;
-        height: 200px !important;
-    }   
-}
-
-@media (min-width:431px) and (max-width:780px){
-
-
-    #project {
+        padding: 10px;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    #iconP{
-        font-size:35px;
-    }
-    #project {
-        margin-bottom: 50px;
-    }
-
-    #subTitleProjects {
-        width: 390px;
-    }
-
-    #pDesc {
-        width: 380px;
     }
 
     #project div img {
-        width: 430px;
+        width: 320px;
         height: 240px;
     }
 
@@ -287,15 +258,75 @@
     }
 
     #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
-        width: auto;
+        width: 320px;
     }
 
     #experience #expImg{
-        width:430px;
+        width:400px;
     }
 
-    #projectImgGreen img{
-        width: 400px !important;
-        height: 280px !important;
-    }   
+    #projects{
+        padding-top:0px;
+    }
+}
+
+@media (min-width:431px) and (max-width:780px){
+
+    #project {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #individualProject{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 350px;
+    }
+
+        #insideProject{
+        flex-direction: column;
+    }
+    #iconP{
+        font-size:35px;
+    }
+    #project {
+        margin-bottom: 50px;
+    }
+
+
+    #pDesc{
+        margin-left: 0px;
+        margin-top: 10px;
+        width: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #project div img {
+        width: 310px;
+        height: 240px;
+    }
+
+    #block-experiences{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
+        width: 370px;
+    }
+
+    #experience #expImg{
+        width:400px;
+    }
+
+    #projects{
+        padding-top:0px;
+    }
 }

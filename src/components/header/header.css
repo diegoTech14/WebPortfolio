@@ -13,7 +13,6 @@
 }
 
 #img{
-
     margin-left:50px;
 }
 
@@ -42,6 +41,7 @@ span{
 
 #cvButton{
     background-color: #0F0F0F;
+    backdrop-filter: blur(6px);
     font-weight: bold;
     padding:15px 25px 15px 20px;
     margin-top:20px;
@@ -55,6 +55,7 @@ span{
     background-color: black;
     border: 1px solid rgba(255, 255, 255, 0.192);
     color:white;
+    
     
 }
 
@@ -109,6 +110,9 @@ label{
 
 
 @media (min-width:270px) and (max-width:380px){
+    #img{
+        display: none;
+    }
 
     #socialNetworks{
         flex-direction: row;
@@ -130,7 +134,7 @@ label{
         font-size:15px;
     }
     #fast-presentation{
-        width: 350px;
+        width: 260px;
     }
     #img img{
         width: 270px;
@@ -153,7 +157,9 @@ label{
 }
 
 @media (min-width:380px) and (max-width: 430px){
-
+    #img{
+        display: none;
+    }
     #socialNetworks{
         flex-direction: row;
         justify-content: center;
@@ -196,8 +202,10 @@ label{
 }
 
 
-
 @media (min-width:431px) and (max-width:780px){
+    #img{
+        display: none;
+    }
     #socialNetworks{
         flex-direction: row;
         justify-content: center;
@@ -205,7 +213,7 @@ label{
 
     .container{
         height: 100%;
-        margin-top:50px !important;
+        margin-top:150px;
     }
 
     #text p{

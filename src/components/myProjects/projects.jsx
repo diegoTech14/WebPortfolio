@@ -11,29 +11,26 @@ import { FaAngular } from "react-icons/fa";
 import { FaWordpress } from "react-icons/fa";
 import Project from './individualProject';
 import React from 'react';
-import Slider from "react-slick";
-
+import { VscGithub } from "react-icons/vsc";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Slider from "react-slick";
 
 export function Projects({ t }) {
   let settings = {
     dots: true,
     infinite: true,
-    autoplay:true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,
-    fade:true
+    slidesToScroll: 1
   }
   const projectsObjects = [
     {
       title: t("greenTitle"),
       description: t("greenDesc"),
-      link: "",
-      textLink: "",
-      img: "/greenCubes.png",
+      link: "https://github.com/diegoTech14/funkoCommerce",
+      textLink: t("funkoLink"),
+      img: "/map.jpg",
       icon: [<FaJava id="iconP" />, <SiArduino id="iconP" />]
     },
     {
@@ -41,7 +38,7 @@ export function Projects({ t }) {
       description: t("funkoDesc"),
       link: "https://github.com/diegoTech14/funkoCommerce",
       textLink: t("funkoLink"),
-      img: "/funko.png",
+      img: "/funko2.png",
       icon: [<FaAngular id="iconP" />,
       <SiMysql id="iconP" />,
       <FaPhp id="iconP" />,
@@ -53,10 +50,9 @@ export function Projects({ t }) {
       description: t("gandocaDesc"),
       link: "https://www.gandocatours.com/",
       textLink: t("gandocaLink"),
-      img: "/gandoca.png",
+      img: "/gandoca2.png",
       icon: [<FaWordpress id="iconP" />]
-    },
-
+    }
   ]
 
 
@@ -64,21 +60,26 @@ export function Projects({ t }) {
     <div id="projects">
       <div id="title-projects">
         <h1>{t("projectTitle")}</h1>
-
       </div>
-
-      <div id="slider">
-        <Slider {...settings} >
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-inner">
           {projectsObjects.map((project, index) => (
-          <React.Fragment key={index}>
-            <div key={index}>
-              <Project content={project}></Project>
-            </div>
-          </React.Fragment>
-        ))}
-        </Slider>
+            <React.Fragment key={index}>
+              <div className={"carousel-item" + (index === 0 ? " active" : "")} key={index}>
+                <Project content={project} ></Project>
+              </div>
+            </React.Fragment>
+          ))}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
       </div>
-
 
 
       <div id="experiences" className='pt-2 pb-5'>
@@ -88,6 +89,7 @@ export function Projects({ t }) {
           </h1>
 
         </div>
+        
         <div id="block-experiences">
           <div id="drupal-ex" className='shadow drupal-ex'>
             <div className='mt-5'>
@@ -111,8 +113,9 @@ export function Projects({ t }) {
               </p>
             </div>
           </div>
-        </div>
+          </div>
       </div>
+
     </div>
   )
 }

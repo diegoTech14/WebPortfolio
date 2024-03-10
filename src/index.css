@@ -1,12 +1,9 @@
-body, #experiences, #contact-container{
-    background-color: black;
+body {
+background-color: black;
+
 }
-h2{
+.fast-presentation h1, h2, h1, #about-me h3{
     font-family: "Rubik", sans-serif;
-}
-h1{
-    font-family: "Rubik", sans-serif;
-    font-size:60px;
 }
 
 #title-projects{
@@ -24,7 +21,7 @@ h1{
 
 @media (min-width:270px) and (max-width:380px) {
     h1{
-        font-size:50px;
+        font-size:35px;
     }
 }
 

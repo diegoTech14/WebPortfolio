@@ -4,8 +4,9 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    padding: 100px;
+    padding-top:120px;
 }
+
 
 .fast-presentation h1{
     font-size:55px;
@@ -16,14 +17,14 @@
 }
 
 #about-me {
+    z-index: 1;
     background-color: #0F0F0F;
     text-align: start;
     width: 1400px;
     font-size: 20px;
-    margin-bottom: 10px;
     padding: 20px;
-    border-radius: 15px;
-    border: 1px solid black;
+    border-radius: 8px;;
+    border: 1px solid rgba(255, 255, 255, 0.157);
     transition: 400ms;
 }
 
@@ -51,6 +52,7 @@
 
 
 #description-tech{
+    
     color:gray;
 }
 
@@ -61,6 +63,7 @@
     width: 1420px;
     justify-content: center;
     align-items: center;
+
 }
 
 #component span{
@@ -75,13 +78,14 @@
 
 #about-skills #component {
     line-height: 1.7;
+    border: 1px solid rgba(255, 255, 255, 0.157);
     background-color: #0F0F0F;
+    backdrop-filter: blur(18px);
     color:white;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 8px;;
     margin: 10px 10px 10px 10px;
     width: 500px;
-    border: 1px solid black;
     transition: 400ms;
 }
 
@@ -106,22 +110,26 @@
 
 
 @media (min-width:270px) and (max-width:380px) {
+
+    #circle-one{
+        display: none;
+    }
     #icon {
         transition: 400ms ease-in-out;
         font-size: 40px;
         color: #727272
     }
     #about-me{
-        width: 320px;
+        width: 260px;
     }
 
     #about-skills #component{
-        width: 320px;
+        width: 260px;
         margin-top: 30px;
     }
     
     #about-skills {
-        width:320px;
+        width:260px;
         display: flex;
         flex-direction: column;
     }
@@ -132,12 +140,16 @@
         flex-direction: column;
         justify-content: center;
         height: 100%;
+        padding-top: 0px;
     }
     
 }
 
 
 @media (min-width:380px) and (max-width:430px) {
+    #circle-one{
+        display: none;
+    }
     #icon {
         transition: 400ms ease-in-out;
         font-size: 40px;
@@ -145,15 +157,16 @@
     }
 
     #about-me{
-        width: 380px;
+        margin:10px;
+        width: auto;
     }
 
     #about-skills #component{
-        width: 380px;
+        width: auto;
     }
     
     #about-skills {
-        width:380px;
+        width:auto;
         display: flex;
         flex-direction: column;
     }
@@ -164,11 +177,15 @@
         flex-direction: column;
         justify-content: center;
         height: 100%;
+        padding-top: 0px;
     }
 
 }
 
 @media (min-width:431px) and (max-width:780px) {
+    #circle-one{
+        display: none;
+    }
     #icon {
         transition: 400ms ease-in-out;
         font-size: 40px;
@@ -177,7 +194,8 @@
     }
 
     #about-me{
-        width: 390px;
+        margin:20px;
+        width: auto;
     }
 
     #about-skills #component{
@@ -198,5 +216,6 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        padding-top: 0px;
     }
 }

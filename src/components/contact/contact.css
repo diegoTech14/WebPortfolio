@@ -66,7 +66,7 @@ form{
     align-items: center;
     padding:40px;
     background-color: #0F0F0F;
-    border-radius: 15px;
+    border-radius: 8px;;
 }
 
 
@@ -80,12 +80,11 @@ form{
 
     #info-contact{
         text-align: center;
-        width: 350px;
+        width: 270px;
 
     }
     #info-contact h1{
         font-size:40px;
-
     }
 
     #info-contact h4{
@@ -100,6 +99,7 @@ form{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 260px;
     }
 
     #personal-data{
@@ -134,13 +134,14 @@ form{
         font-size:15px;
     }
     #formContact{
-        width:250px;
+        width:320px;
     }
     #contact{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 360px;
     }
 
     #personal-data{
@@ -178,6 +179,7 @@ form{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 420px;
     }
 
     #personal-data{
