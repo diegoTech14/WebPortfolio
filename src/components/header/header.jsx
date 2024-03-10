@@ -51,7 +51,7 @@ export function Header({t}) {
 
             </div>
             <div id="img">
-                <img className='img-fluid' src="/future.png" alt="" />
+                <img className='img-fluid' src="/future3.png" alt="" />
             </div>
         </header>
     )
