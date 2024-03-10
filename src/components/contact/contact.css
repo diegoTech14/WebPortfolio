@@ -92,7 +92,8 @@ form{
         font-size:15px;
     }
     #formContact{
-        width:250px;
+        width:260px;
+        padding: 10px;
     }
     #contact{
         display: flex;
