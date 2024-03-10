@@ -137,6 +137,19 @@
     color:white;
 }
 
+#sigchi-ex a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgba(81, 80, 80, 0.349);
+    transition: 400ms;
+}
+
+#sigchi-ex a:hover{
+    background-color: rgba(64, 64, 64, 0.453);
+}
+
 
 #title-experiences h1{
     text-align: center;
@@ -172,7 +185,7 @@
         display: flex;
         flex-direction: column;
         padding: 10px;
-        width: 250px;
+        width: auto;
     }
 
     #insideProject{
@@ -180,7 +193,7 @@
     }
 
     #project div img {
-        width: 230px;
+        width: auto;
         height: 180px;
     }
 

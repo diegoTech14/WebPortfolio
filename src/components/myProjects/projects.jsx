@@ -12,9 +12,8 @@ import { FaWordpress } from "react-icons/fa";
 import Project from './individualProject';
 import React from 'react';
 import { VscGithub } from "react-icons/vsc";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 
 export function Projects({ t }) {
   let settings = {
@@ -103,6 +102,8 @@ export function Projects({ t }) {
               <p>
                 {t("sigchiInfo")}
               </p>
+              <a href="https://www.facebook.com/ucrcaribe/posts/574701894690734?ref=embed_post">
+                See it here <FaExternalLinkAlt /></a>
             </div>
           </div>
           <div id="pytuthor-ex" className='shadow chi-ex'>
