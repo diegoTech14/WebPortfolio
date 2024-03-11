@@ -2,11 +2,7 @@ import './navbar.css';
 import i18n from '../../i18n.js';
 import { LuLanguages } from "react-icons/lu";
 
-export function Navbar({t}) {
-
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+export function Navbar({t, changeLanguage}) {
   return (
 
     <nav className="navbar navbar-expand-lg fixed-top " id="navbar" data-bs-theme="dark">

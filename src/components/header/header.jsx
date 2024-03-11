@@ -3,8 +3,15 @@ import { TypeAnimation } from 'react-type-animation';
 import { SiCredly } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { GrLinkedin } from "react-icons/gr";
+import React, { useEffect, useState } from 'react';
 
-export function Header({t}) {
+export function Header({t, lngCv}) {
+
+    const [cv, setCv] = useState('/cv.pdf');
+    useEffect(() => {
+        (lngCv === 0) ? setCv('/cv.pdf') : setCv('/cvE.pdf')
+    }, [lngCv]);
+
     return (
         <header className="container" id="header">
             <div id="fast-presentation">
@@ -27,7 +34,7 @@ export function Header({t}) {
                     </p>
                 </div>
 
-                <a className="fw-bold fs-5" href="/cv.pdf" download={"cv.pdf"} aria-disabled="true">
+                <a className="fw-bold fs-5" href={cv} download={cv} aria-disabled="true">
                     <button type="button" id="cvButton">
                         {t("cv")}
                     </button>
