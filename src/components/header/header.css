@@ -9,7 +9,7 @@
 }
 
 #fast-presentation{
-    width: 800px;
+    width: 100%;
 }
 
 #img{
@@ -108,7 +108,54 @@ label{
 }
 
 
+@media (max-width:768px){
+    #img{
+        display: none;
+    }
 
+    #socialNetworks{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .container{
+        height: 100%;
+        margin-top:30px;
+    }
+    #header{
+        margin-top:180px;
+    }
+    #text-animated{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    #text p{
+        font-size:15px;
+    }
+    #fast-presentation{
+        width: 260px;
+    }
+    #img img{
+        width: 270px;
+        height: 290px;
+        margin-left: -20px;
+    }
+    #cvButton{
+        margin-left:0px;
+        width: 190px;
+        margin-bottom: 40px;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+}
+
+/*
 @media (min-width:270px) and (max-width:380px){
     #img{
         display: none;
@@ -241,4 +288,4 @@ label{
         margin-bottom:100px;
     } 
 }
-
+*/
