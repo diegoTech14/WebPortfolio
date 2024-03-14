@@ -26,8 +26,8 @@ function App() {
       <Navbar t={t} changeLanguage={changeLanguage}/>
       <Header t={t} lngCv={lngCv}/>
       <About t={t}/>
-      {/*<Badges t={t}/>
-      <Projects t={t}/>
+      <Badges t={t}/>
+      {/*<Projects t={t}/>
       <References t={t}/>
   <Contact t={t}/>*/}
     </>

@@ -13,7 +13,7 @@ export function Header({t, lngCv}) {
     }, [lngCv]);
 
     return (
-        <header className="container" id="header">
+        <header id="header">
             <div id="fast-presentation">
                 <div id="text">
                     <div id="text-animated">
