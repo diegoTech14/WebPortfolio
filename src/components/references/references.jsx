@@ -26,7 +26,7 @@ export function References({t}) {
 
     return (
         <>
-            <div className="container" id="container-references">
+            <div id="container-references">
                 <div id="title-projects">
                     <h1>
                         {t("referenceTitle")}

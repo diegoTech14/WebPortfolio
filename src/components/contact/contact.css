@@ -4,7 +4,7 @@
     align-items: center;
     margin-top:50px;
     padding:20px;
-    width:580px;
+    width:30%;
 
 }
 
@@ -22,6 +22,7 @@
     font-size: 80px;
     font-weight: bold;
     color:#12AB7A;
+
 }
 #contact-container{
     margin-top: 50px;
@@ -69,7 +70,73 @@ form{
     border-radius: 8px;;
 }
 
+@media (max-width:768px){
+    #contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
+    #info-contact{
+        text-align: center;
+        width: 270px;
+    }
+
+    #info-contact h1{
+        font-size:40px;
+    }
+
+    #info-contact h4{
+        text-align: center;
+        font-size:15px;
+    }
+    #formContact{
+        width:auto;
+    }
+
+    #personal-data{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #info-contact{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    #info-contact h1{
+        font-size:70px;
+    }
+
+    #info-contact h4{
+        font-size:18px;
+    }
+
+    #contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    #personal-data{
+        text-align: center;
+    }
+}
+/*
 @media (min-width:270px) and (max-width:380px){
     #contact-container{
         display: flex;
@@ -178,4 +245,4 @@ form{
     #personal-data{
         text-align: center;
     }
-}
+}*/

@@ -17,7 +17,7 @@
 }
 
 #about-me {
-    z-index: 1;
+
     background-color: #0F0F0F;
     text-align: start;
     width: 1400px;
@@ -107,9 +107,7 @@
 
 
 @media (max-width:768px){
-    #circle-one{
-        display: none;
-    }
+
     #icon {
         transition: 400ms ease-in-out;
         font-size: 40px;
@@ -127,17 +125,12 @@
     
     #about-skills {
         width:auto;
-        display: flex;
+
         flex-direction: column;
     }
 
     #about-container{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-        padding-top: 0px;
+        margin-top:200px;
     }
 }
 
@@ -145,7 +138,7 @@
 
     #about-me{
         margin:10px;
-        width: auto;
+        width: 92%;
     }
 
     #about-skills #component{
@@ -154,7 +147,7 @@
     }
     
     #about-skills {
-        width:auto;
+        width:95%;
         flex-direction: column;
     }
 

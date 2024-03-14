@@ -70,7 +70,8 @@
 
 
 #projectImg img{
-    width: 200px;
+    width: 800px;
+    height: 500px;
     border-radius: 8px;
 }
 
@@ -86,10 +87,6 @@
 }
 
 
-#project div img {
-    height: 300px;
-    width: 500px;
-}
 
 
 #block-experiences{
@@ -176,9 +173,51 @@
 #sigchi-ex, #drupal-ex, #pytuthor-ex p{
     font-size: 18px;
 }
+@media (max-width:768px){
+    
+    #individualProject{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: auto;
+        margin:10px;
+    }
 
+    #insideProject{
+        width: auto;
+        flex-direction: column;
+    }
 
-@media (min-width:270px) and (max-width:380px) {
+    #projectImg img{
+        width: 620px;
+    }
+
+    #pDesc{
+        margin-left: 0px;
+        margin-top: 10px;
+        width: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #block-experiences{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
+        width: auto;
+        margin: 10px;
+    }
+
+    #projects{
+        padding-top:0px;
+    }
+}
+
+/*@media (min-width:270px) and (max-width:380px) {
 
     
     #individualProject{
@@ -343,4 +382,4 @@
     #projects{
         padding-top:0px;
     }
-}
+}*/
