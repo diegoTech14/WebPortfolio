@@ -49,7 +49,6 @@ export const Contact = ({t}) => {
 
       </div>
       <div className="mt-5 mb-5" id="contact">
-        <div>
           <form ref={form} onSubmit={sendEmail} id="formContact">
             <div className="mb-3">
               <label for="exampleInputEmail1" class="form-label">
@@ -102,7 +101,6 @@ export const Contact = ({t}) => {
             {t("submit")}
             </button>
           </form>
-        </div>
       </div>
       <Toaster />
     </div>

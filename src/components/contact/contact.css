@@ -80,20 +80,25 @@ form{
     }
 
     #info-contact{
-        text-align: center;
+
         width: 270px;
     }
 
     #info-contact h1{
-        font-size:40px;
+        font-size:auto;
     }
 
     #info-contact h4{
         text-align: center;
-        font-size:15px;
+        font-size:auto;
     }
     #formContact{
-        width:auto;
+        text-align: start;
+        width:100%;
+    }
+
+    #contact{
+        width: 95%;
     }
 
     #personal-data{
