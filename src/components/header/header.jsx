@@ -17,7 +17,7 @@ export function Header({t, lngCv}) {
             <div id="fast-presentation">
                 <div id="text">
                     <div id="text-animated">
-                        <h1>{t("greeting")}, <br></br> {t("me")}</h1>
+                        <h2>{t("greeting")}, <br></br> {t("me")}</h2>
                         <TypeAnimation
                             sequence={[
                                 t("rol"),

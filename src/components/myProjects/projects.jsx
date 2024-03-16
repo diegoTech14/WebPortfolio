@@ -29,7 +29,7 @@ export function Projects({ t }) {
       description: t("greenDesc"),
       link: "https://github.com/diegoTech14/funkoCommerce",
       textLink: t("funkoLink"),
-      img: "/map.jpg",
+      img: "/map.png",
       icon: [<FaJava id="iconP" />, <SiArduino id="iconP" />]
     },
     {
@@ -70,16 +70,15 @@ export function Projects({ t }) {
             </React.Fragment>
           ))}
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <button className="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span className="carousel-control-prev-icon me-5" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span className="carousel-control-next-icon ms-5" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
       </button>
       </div>
-
 
       <div id="experiences" className='pt-2 pb-5'>
         <div id="title-projects">
@@ -115,7 +114,7 @@ export function Projects({ t }) {
             </div>
           </div>
           </div>
-      </div>
+          </div>
 
     </div>
   )

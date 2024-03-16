@@ -85,7 +85,7 @@ form{
     }
 
     #info-contact h1{
-        font-size:auto;
+        font-size:18vw;
     }
 
     #info-contact h4{
@@ -99,6 +99,7 @@ form{
 
     #contact{
         width: 95%;
+        background-color: black;
     }
 
     #personal-data{
@@ -135,6 +136,7 @@ form{
         align-items: center;
         flex-direction: column;
         width: 95%;
+        background-color: black;
     }
 
     #personal-data{

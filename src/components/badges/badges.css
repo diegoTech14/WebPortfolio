@@ -38,25 +38,7 @@
     width: 100%;
 }
 
-
-@media (min-width:270px) and (max-width:380px){
-
-    #info-badge{
-        padding:0px;
-    }
-
-    #cert{
-        margin: 10px;
-        width: auto;
-        text-align: center;
-        flex-direction: column;
-    }
-
-
-}
-
-
-@media (min-width:380px) and (max-width: 430px){
+@media (max-width:768px){
 
     #info-badge{
         padding:0px;
@@ -71,17 +53,5 @@
 }
 
 
-@media (min-width:431px) and (max-width:780px){
 
-    #info-badge{
-        padding:0px;
-    }
 
-    #cert{
-        margin: 10px;
-        width: auto;
-        text-align: center;
-        flex-direction: column;
-    }
-
-}
