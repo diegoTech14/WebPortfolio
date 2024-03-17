@@ -84,7 +84,7 @@
     color:white;
     padding: 20px;
     border-radius: 8px;;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 0px 10px;
     width: 500px;
     transition: 400ms;
 }
@@ -130,7 +130,8 @@
     }
 
     #about-container{
-        margin-top:200px;
+        margin-top:130px;
+
     }
 }
 

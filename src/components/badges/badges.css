@@ -40,6 +40,9 @@
 
 @media (max-width:768px){
 
+    #container-badges{
+        padding-top:0px;
+    }
     #info-badge{
         padding:0px;
     }
