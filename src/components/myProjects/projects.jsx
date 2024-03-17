@@ -27,7 +27,7 @@ export function Projects({ t }) {
     {
       title: t("greenTitle"),
       description: t("greenDesc"),
-      link: "https://github.com/diegoTech14/funkoCommerce",
+      link: "https://github.com/diegoTech14/GreenCubes/tree/master",
       textLink: t("funkoLink"),
       img: "/map.png",
       icon: [<FaJava id="iconP" />, <SiArduino id="iconP" />]
@@ -102,7 +102,7 @@ export function Projects({ t }) {
                 {t("sigchiInfo")}
               </p>
               <a href="https://www.facebook.com/ucrcaribe/posts/574701894690734?ref=embed_post">
-                See it here <FaExternalLinkAlt /></a>
+                {t("linkSchi")} <FaExternalLinkAlt /></a>
             </div>
           </div>
           <div id="pytuthor-ex" className='shadow chi-ex'>
