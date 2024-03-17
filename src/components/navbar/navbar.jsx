@@ -18,7 +18,7 @@ export function Navbar({t, changeLanguage}) {
           </a>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item" id="item">
-              <a class="nav-link" href="#header">{t("Home")}</a>
+              <a className="nav-link" href="#header">{t("Home")}</a>
             </li>
             <li className="nav-item" id="item">
               <a className="nav-link" href="#about-container">{t("About-me")}</a>
@@ -37,16 +37,16 @@ export function Navbar({t, changeLanguage}) {
               <a className="nav-link" href="#contact-container">{t("Contact-me")}</a>
             </li>
 
-            <li class="nav-item dropdown dropstart">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown dropstart">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <LuLanguages />
               </a>
-              <ul class="dropdown-menu dropdown-menu-lg-start" aria-labelledby="navbarDropdown">
-                <li><button class="dropdown-item" onClick={() => changeLanguage('en')}>
+              <ul className="dropdown-menu dropdown-menu-lg-start" aria-labelledby="navbarDropdown">
+                <li><button className="dropdown-item" onClick={() => changeLanguage('en')}>
 
                   <img src="./flagEnglish.png" alt="" id="flag" /> {t("English")}
                 </button></li>
-                <li><button class="dropdown-item" onClick={() => changeLanguage('es')}>
+                <li><button className="dropdown-item" onClick={() => changeLanguage('es')}>
                   <img src="./flagSpain.png" alt="" id="flag" /> {t("Spain")}
                 </button></li>
               </ul>

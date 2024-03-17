@@ -60,7 +60,7 @@ export function Projects({ t }) {
       <div id="title-projects">
         <h1>{t("projectTitle")}</h1>
       </div>
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           {projectsObjects.map((project, index) => (
             <React.Fragment key={index}>

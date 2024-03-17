@@ -18,7 +18,7 @@ export function About({t}) {
     <div id="about-container">
       <div id="about-me" className="shadow">
         <h3 className="fw-bold">{t("meAs")}</h3>
-        <p class="mt-4" id="about-me-text">
+        <p className="mt-4" id="about-me-text">
           {t('meAsInfo')}
         </p>
 

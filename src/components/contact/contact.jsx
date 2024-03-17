@@ -12,8 +12,8 @@ export const Contact = ({t}) => {
     emailjs.sendForm("service_flhnw2p", "template_wpn05ig", form.current,
       "hH_Uin8p0_gmfypr3").then(
         (result) => {
-          toast.success("Email Sent Successfully", {
-            description: "Thanks for contact me",
+          toast.success(t("goodNotifyTitle"), {
+            description: t("goodNotifyDesc"),
             style: {
               background: "green",
               color: "white"
@@ -22,8 +22,8 @@ export const Contact = ({t}) => {
 
         },
         (error) => {
-          toast.error("Email Was Not Sent", {
-            description: `Something Happened Wrong, try again please...`,
+          toast.error(t("badNotifyTitle"), {
+            description: t("badNotifyDesc"),
             style: {
               background: "red",
               color: "white"
@@ -51,31 +51,31 @@ export const Contact = ({t}) => {
       <div className="mt-5 mb-5" id="contact">
           <form ref={form} onSubmit={sendEmail} id="formContact">
             <div className="mb-3">
-              <label for="exampleInputEmail1" class="form-label">
+              <label htmlFor="exampleInputEmail1" className="form-label">
                 {t("cName")}
               </label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="name"
                 name="name"
                 aria-describedby="name"
               />
             </div>
             <div className="mb-3">
-              <label for="exampleInputEmail1" class="form-label">
+              <label htmlFor="exampleInputEmail1" className="form-label">
               {t("yEmail")}
               </label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="fromEmail"
                 name="fromEmail"
                 aria-describedby="fromEmail"
               />
             </div>
             <div className="mb-3">
-              <label for="exampleInputPassword1" class="form-label">
+              <label htmlFor="exampleInputPassword1" className="form-label">
               {t("subject")}
               </label>
               <input
@@ -86,7 +86,7 @@ export const Contact = ({t}) => {
               />
             </div>
             <div className="mb-3">
-              <label for="exampleInputPassword1" class="form-label">
+              <label htmlFor="exampleInputPassword1" className="form-label">
               {t("message")}
               </label>
               <textarea
