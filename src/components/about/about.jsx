@@ -67,9 +67,9 @@ export function About({t}) {
             &nbsp;&nbsp;&nbsp;
             <FaPhp id="icon" />
             {/*&nbsp;&nbsp;&nbsp;
-            <FaAws id="icon" />*/}
+            <FaAws id="icon" />
             &nbsp;&nbsp;&nbsp;
-            <SiDocker id="icon" />
+            <SiDocker id="icon" />*/}
             &nbsp;&nbsp;&nbsp;
             <FaReact id="icon" />
             <div id="description-tech">

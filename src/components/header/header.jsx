@@ -7,9 +7,9 @@ import React, { useEffect, useState } from 'react';
 
 export function Header({t, lngCv}) {
 
-    const [cv, setCv] = useState('/cv.pdf');
+    const [cv, setCv] = useState('/diegoDuarteCVEn.pdf');
     useEffect(() => {
-        (lngCv === 0) ? setCv('/cv.pdf') : setCv('/cvE.pdf')
+        (lngCv === 0) ? setCv('/diegoDuarteCVEn.pdf') : setCv('/diegoDuarteCVEs.pdf')
     }, [lngCv]);
 
     return (
