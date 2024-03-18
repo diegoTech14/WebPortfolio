@@ -45,7 +45,7 @@
     "projectsSubtitle":"He tenido la experiencia de crear soluciones reales para pymes, ",
     "projectsSubtitleTwo":"también he creado algunos proyectos personales y académicos de los que estoy orgulloso.",
     "greenTitle":"Proyecto HCI Green Cubes",
-    "greenDesc":"Green Cubes es un proyecto HCI para comunicar a las personas las consecuencias de la explotación natural, fue la idea principal del primer SIGCHI en Costa Rica. Este proyecto sigue en desarrollo para el siguiente nivel.",
+    "greenDesc":"Green Cubes es un proyecto HCI para comunicar a las personas las consecuencias de la explotación natural, fue la idea principal del primer SIGCHI en Costa Rica. Este proyecto sigue en desarrollo para crear casos de prueba y un artículo.",
     "funkoTitle":"Sistema de inventario para Funko Pops",
     "funkoDesc":"Este es un proyecto universitario en el que podemos gestionar el inventario de un carrito de compras Funko. Este proyecto fue creado build y API usando el microframework Slim y el cliente frontend con Angular.",
     "funkoLink":"Ver código",

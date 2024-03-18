@@ -57,13 +57,19 @@
     color:white;
     border-radius: 8px;
     background-color:#2F2F2F;
+    
     width: auto;
     padding: 30px;
 
 }
 
 #pDesc h2{
-    font-size:25px;
+    margin-top: 20px;
+    font-size:35px;
+}
+
+#pDesc p{
+    font-size:20px;
 }
 
 
@@ -81,8 +87,6 @@
     font-size:35px;
 
 }
-
-
 
 
 #block-experiences{
@@ -171,6 +175,14 @@
 }
 
 @media (max-width:768px){
+
+    #pDesc h2{
+        font-size:25px;
+    }
+    
+    #pDesc p{
+        font-size:15px;
+    }
     
     #individualProject{
         display: flex;
@@ -258,11 +270,17 @@
     #projects{
         padding-top:0px;
     }
+
+    #pDesc h2{
+        font-size:25px;
+    }
+    
+    #pDesc p{
+        font-size:18px;
+    }
 }
 
-@media (min-width:1025px){
-    
-}
+
 
 /*@media (min-width:270px) and (max-width:380px) {
 
