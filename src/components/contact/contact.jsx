@@ -15,17 +15,21 @@ export const Contact = ({t}) => {
           toast.success(t("goodNotifyTitle"), {
             description: t("goodNotifyDesc"),
             style: {
-              background: "green",
-              color: "white"
+              backgroundColor:"rgba(255, 255, 255, 0.257)",
+              backdropFilter:"blur(5px)",
+              border:"1px solid rgba(255, 255, 255, 0.157)",
+              color: "white",
+              marginBottom:25
             }
           })
-
         },
         (error) => {
           toast.error(t("badNotifyTitle"), {
             description: t("badNotifyDesc"),
             style: {
-              background: "red",
+              backgroundColor:"rgba(189, 47, 47, 0.37)",
+              backdropFilter:"blur(2px)",
+              border:"1px solid rgba(255, 255, 255, 0.157)",
               color: "white"
             }
           })
@@ -60,6 +64,7 @@ export const Contact = ({t}) => {
                 id="name"
                 name="name"
                 aria-describedby="name"
+                required
               />
             </div>
             <div className="mb-3">
@@ -72,6 +77,7 @@ export const Contact = ({t}) => {
                 id="fromEmail"
                 name="fromEmail"
                 aria-describedby="fromEmail"
+                required
               />
             </div>
             <div className="mb-3">
@@ -83,6 +89,7 @@ export const Contact = ({t}) => {
                 className="form-control"
                 id="subject"
                 name="subject"
+                required
               />
             </div>
             <div className="mb-3">
@@ -94,6 +101,7 @@ export const Contact = ({t}) => {
                 className="form-control"
                 id="textArea"
                 name="description"
+                required
                 rows={6}
               />
             </div>
@@ -101,8 +109,10 @@ export const Contact = ({t}) => {
             {t("submit")}
             </button>
           </form>
+          <Toaster />
       </div>
-      <Toaster />
+      
+      
     </div>
   );
 }; export default Contact
