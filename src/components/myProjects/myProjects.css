@@ -74,7 +74,7 @@
 
 
 #projectImg img{
-    width: 800px;
+    width: 700px;
     height: 500px;
     border-radius: 8px;
 }
@@ -280,7 +280,7 @@
     }
 }
 
-
+/*
 @media (min-width:1025px) and (max-width:1537px) {
 
     #individualProject{
@@ -334,3 +334,4 @@
     }
 
 }
+*/
