@@ -20,7 +20,7 @@
 
     background-color: #0F0F0F;
     text-align: start;
-    width: 1400px;
+    width: 1300px;
     font-size: 20px;
     padding: 20px;
     border-radius: 8px;
@@ -60,7 +60,7 @@
 
 #about-skills {
     display: flex;
-    width: 1420px;
+    width: 1320px;
     justify-content: center;
     align-items: center;
 
@@ -84,7 +84,7 @@
     color:white;
     padding: 20px;
     border-radius: 8px;;
-    margin: 10px 10px 0px 10px;
+    margin: 20px 10px 0px 10px;
     width: 500px;
     transition: 400ms;
 }

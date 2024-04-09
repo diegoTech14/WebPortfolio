@@ -9,7 +9,7 @@
 
 
 #individualProject{
-    width: 80%;
+    width: 85%;
     background-color: #1F1F1F;
     padding:30px;
     border-radius: 8px;
@@ -101,7 +101,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    width: 430px;
+    width: 400px;
     margin: 30px;
 }
 

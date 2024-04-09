@@ -9,6 +9,7 @@ import { FaReact } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { FaAngular } from "react-icons/fa";
 import { FaWordpress } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 import Project from './individualProject';
 import React from 'react';
 import { VscGithub } from "react-icons/vsc";
@@ -25,12 +26,12 @@ export function Projects({ t }) {
   }
   const projectsObjects = [
     {
-      title: t("greenTitle"),
-      description: t("greenDesc"),
-      link: "https://github.com/diegoTech14/GreenCubes/tree/master",
+      title: t("dalopcanTitle"),
+      description: t("dalopDesc"),
+      link: "https://github.com/diegoTech14/DalopcanSystem/tree/main",
       textLink: t("funkoLink"),
-      img: "/map.png",
-      icon: [<FaJava id="iconP" />, <SiArduino id="iconP" />]
+      img: "/login.png",
+      icon: [<DiNodejsSmall id="iconP" />, <FaReact id="iconP" />, <SiExpress id="iconP" />]
     },
     {
       title: t("funkoTitle"),
@@ -43,6 +44,14 @@ export function Projects({ t }) {
       <FaPhp id="iconP" />,
       <FaBootstrap id="iconP" />
       ]
+    },
+    {
+      title: t("greenTitle"),
+      description: t("greenDesc"),
+      link: "https://github.com/diegoTech14/GreenCubes/tree/master",
+      textLink: t("funkoLink"),
+      img: "/map.png",
+      icon: [<FaJava id="iconP" />, <SiArduino id="iconP" />]
     },
     {
       title: t("gandocaTitle"),
