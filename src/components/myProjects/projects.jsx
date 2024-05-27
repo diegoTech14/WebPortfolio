@@ -12,18 +12,12 @@ import { FaWordpress } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import Project from './individualProject';
 import React from 'react';
-import { VscGithub } from "react-icons/vsc";
+
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 
 export function Projects({ t }) {
-  let settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  }
+
   const projectsObjects = [
     {
       title: t("dalopcanTitle"),

@@ -12,7 +12,7 @@ export function Badges({t}) {
                 </div>
                 <div id="info-badge">
                     <h2>{t("pyTitle")}</h2>
-                    <h5>{t("pyIssued")}</h5>
+                    <h5 id="issued">{t("pyIssued")}</h5>
                     <p>
                         {t("pyInfo")}
                     </p>
@@ -25,7 +25,7 @@ export function Badges({t}) {
                 </div>
                 <div id="info-badge">
                     <h2>{t("ciberTitle")}</h2>
-                    <h5>{t("ciberIssued")}</h5>
+                    <h5 id="issued">{t("ciberIssued")}</h5>
                     <p>
                         {t("ciberInfo")}
                     </p>

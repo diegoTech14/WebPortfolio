@@ -280,8 +280,8 @@
     }
 }
 
-/*
-@media (min-width:1025px) and (max-width:1537px) {
+
+@media (min-width:1025px) and (max-width:1535px) {
 
     #individualProject{
         display: flex;
@@ -313,11 +313,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 80%;
+
     }
 
     #block-experiences #drupal-ex, #sigchi-ex, #pytuthor-ex{
-        width: auto;
+        width: 90%;
         margin: 10px;
     }
 
@@ -334,4 +334,3 @@
     }
 
 }
-*/

@@ -1,9 +1,13 @@
 body {
-background-color: black;
+    background: rgb(38,38,38);
+    background: radial-gradient(circle, rgb(30, 30, 30) 0%, rgba(0,0,0,1) 49%);
 
 }
-.fast-presentation h1, h2, h1, #about-me h3{
+/*.fast-presentation h1, h2, h1, #about-me h3{
     font-family: "Rubik", sans-serif;
+}*/
+*{
+    font-family: "Montserrat", sans-serif;
 }
 
 h1{
@@ -21,8 +25,12 @@ h1{
 #title-projects p{
     font-size:18px;
 }
-
-
-
+  
+  /* Para Firefox */
+  html {
+    scrollbar-width:auto; /* Grosor de la barra */
+    scrollbar-color: #1bd197 rgb(38,38,38); /* Color de la barra y del track */
+    
+}
 
 

@@ -11,14 +11,22 @@
     height: 200px;
     padding:10px;
 }
-
+#issued{
+    padding:3px 3px 3px 10px;
+    background-color: rgba(10, 235, 164, 0.103);
+    color: #1bd197;
+    width: 200px;
+    border-radius: 6px;
+    border:1px #1bd19796 solid;
+    font-size: px;
+}
 #cert{
     background-color: #0F0F0F;
     padding:20px;
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.157);
     color:white;
-    width:70%;
+    width:50%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +53,10 @@
     }
     #info-badge{
         padding:0px;
+    }
+
+    #issued{
+        width: 100%;
     }
 
     #cert{

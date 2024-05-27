@@ -4,8 +4,7 @@ import { LuLanguages } from "react-icons/lu";
 
 export function Navbar({t, changeLanguage}) {
   return (
-
-    <nav className="navbar navbar-expand-lg fixed-top " id="navbar" data-bs-theme="dark">
+    <nav className="navbar navbar-expand-lg fixed-top" id="navbar" data-bs-theme="dark">
       <div className="container-fluid">
         &nbsp;
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,9 +16,6 @@ export function Navbar({t, changeLanguage}) {
             &nbsp;&nbsp;Diego Duarte Fernández
           </a>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item" id="item">
-              <a className="nav-link" href="#header">{t("Home")}</a>
-            </li>
             <li className="nav-item" id="item">
               <a className="nav-link" href="#about-container">{t("About-me")}</a>
             </li>

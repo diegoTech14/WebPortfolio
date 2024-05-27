@@ -8,7 +8,24 @@
 }
 
 #fast-presentation{
+    padding-top:7%;
     width: 50%;
+}
+
+#personal{
+    display:flex;
+    align-items: center;
+    margin-top:40px;
+}
+
+#profession{
+    padding:4px 4px 4px 10px;
+    background-color: rgba(10, 235, 164, 0.103);
+    color: #1bd197;
+    width: 320px;
+    border-radius: 6px;
+    border:1px #1bd19796 solid;
+    font-size:22px;
 }
 
 #img{
@@ -26,12 +43,13 @@ span{
 }
 
 #text p{
-    font-size: 20px;
-    color:white;
+    font-size: 18px;
+    color:rgb(151, 151, 151);
 }
 
 #header{
-    margin:150px 180px 50px 180px;
+    margin:0px 180px 0px 180px;
+    padding: 120px 0px 50px 0px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -43,7 +61,6 @@ span{
     backdrop-filter: blur(6px);
     font-weight: bold;
     padding:15px 25px 15px 20px;
-    margin-top:20px;
     border-radius: 5px;
     border:1px solid black;
     color:white;
@@ -60,8 +77,8 @@ span{
 
 header img{
     
-    width:600px;
-    height: 600px;
+    width:500px;
+    height: 500px;
     animation-name: loadRight;
     animation-duration: 1.2s;
 }
@@ -70,8 +87,9 @@ header img{
 #socialNetworks{
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    margin:40px 0px 40px 0px;
+    justify-content: center;
+    align-items: center;
+
 
     
 }
@@ -101,6 +119,11 @@ label{
 
 
 @media (max-width:768px) {
+    #personal{
+        display:flex;
+        flex-direction: column;
+    }
+    
     #img{
         display: none;
     }
@@ -111,7 +134,7 @@ label{
     }
 
     #header{
-        margin-top:140px;
+        margin-top:10px;
     }
     #text-animated{
         font-size: 12px;
@@ -151,7 +174,6 @@ label{
 
     #header{
         height: 100%;
-        margin-top:150px;
     }
 
     #text p{
@@ -164,14 +186,23 @@ label{
     #cvButton{
         
         width: 190px;
-        margin-bottom: 40px;
+
     }
     
     header {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 180px;
+        margin-top: 10px;
         margin-bottom:100px;
     } 
+    #profession{
+        padding:4px 4px 4px 10px;
+        background-color: rgba(10, 235, 164, 0.103);
+        color: #1bd197;
+        width: 100%;
+        border-radius: 6px;
+        border:1px #1bd19796 solid;
+        font-size:22px;
+    }
 }

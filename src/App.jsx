@@ -29,7 +29,7 @@ function App() {
       <Badges t={t}/>
       <Projects t={t}/>
       <References t={t}/>
-      <Contact t={t}/>
+  <Contact t={t}/>
     </>
   )
 }

@@ -5,7 +5,7 @@ import { VscGithub } from "react-icons/vsc";
 import { GrLinkedin } from "react-icons/gr";
 import React, { useEffect, useState } from 'react';
 
-export function Header({t, lngCv}) {
+export function Header({ t, lngCv }) {
 
     const [cv, setCv] = useState('/diegoDuarteCVEn.pdf');
     useEffect(() => {
@@ -18,43 +18,38 @@ export function Header({t, lngCv}) {
                 <div id="text">
                     <div id="text-animated">
                         <h2>{t("greeting")}, <br></br> {t("me")}</h2>
-                        <TypeAnimation
-                            sequence={[
-                                t("rol"),
-                                1500
-                            ]}
-                            wrapper="span"
-                            speed={20}
+                        <h3 className='fw-bold' id="profession">{t("profession")}</h3>
 
-                            style={{ fontSize: '30px', color: "#12AB7A", fontFamily: "Rubik"}}
-                        />
                     </div>
                     <p>
                         {t("resume")}
                     </p>
                 </div>
 
+ 
+
+                <div id="personal">
                 <a className="fw-bold fs-5" href={cv} download={cv} aria-disabled="true">
                     <button type="button" id="cvButton">
                         {t("cv")}
                     </button>
-                </a>
-                
-        <div id="personal">
-          <div id="socialNetworks" >
-            <div className='me-4'>
-              <a href="https://www.linkedin.com/in/diego-duarte-fern%C3%A1ndez-165445180/"><GrLinkedin id="iconHeader" /></a>
-            </div>
-            <div className='me-4'>
-              <a href="https://github.com/diegoTech14"><VscGithub id="iconHeader"/></a>
-            </div>
-            <div className=''>
-              <a href="https://www.credly.com/users/diego-duarte-fernandez"><SiCredly id="iconHeader"/></a>
-            </div>
-            
-          </div>
 
-        </div>
+                </a>
+                    <div id="socialNetworks" >
+                    
+                        <div className='me-4 ms-4' >
+                            <a href="https://www.linkedin.com/in/diego-duarte-fern%C3%A1ndez-165445180/"><GrLinkedin id="iconHeader" /></a>
+                        </div>
+                    <div className='me-4'>
+                            <a href="https://github.com/diegoTech14"><VscGithub id="iconHeader" /></a>
+                        </div>
+                        <div className=''>
+                            <a href="https://www.credly.com/users/diego-duarte-fernandez"><SiCredly id="iconHeader" /></a>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
             <div id="img">

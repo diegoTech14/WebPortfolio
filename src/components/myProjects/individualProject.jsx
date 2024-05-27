@@ -1,5 +1,5 @@
 import React from "react";
-
+import { VscGithub } from "react-icons/vsc";
 export default function Project(content) {
     return ( 
         <div id="project">
@@ -24,7 +24,7 @@ export default function Project(content) {
                             }
                         </div>
                         {(content.content.link != "") ? <a href={content.content.link} target='_blank' className='fw-bold' id="hyperlinkWeb">
-                            <button type="button" id="buttonProject">{content.content.textLink}</button>
+                            <button type="button" id="buttonProject"><VscGithub style={{fontSize:22}}></VscGithub> {content.content.textLink}</button>
                         </a> : <></>}
                     </div>
                 </div>

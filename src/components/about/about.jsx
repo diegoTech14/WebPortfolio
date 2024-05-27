@@ -9,11 +9,27 @@ import { FaJava } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { FaAws } from "react-icons/fa6";
+import { TiHtml5 } from "react-icons/ti";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaWordpress } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa6";
+import { SiExpress } from "react-icons/si";
+import Marquee from 'react-fast-marquee'
 import './about.css';
 
 
-export function About({t}) {
-
+export function About({ t }) {
+  const skills = {
+    main: [],
+    second: [
+      <FaPhp id="icon" />,
+      <FaCss3Alt id="icon"></FaCss3Alt>,
+      <TiHtml5 id="icon"></TiHtml5>,
+      <IoLogoJavascript id="icon"></IoLogoJavascript>,
+      <FaWordpress id="icon"></FaWordpress>,
+      <FaJava id="icon" />
+    ]
+  }
   return (
     <div id="about-container">
       <div id="about-me" className="shadow">
@@ -43,43 +59,29 @@ export function About({t}) {
             <SiMysql id="icon" />
             &nbsp;&nbsp;&nbsp;
             <DiPython id="icon" />
-            {/*&nbsp;&nbsp;&nbsp;
-            <SiMongodb id="icon"/>*/}
             &nbsp;&nbsp;&nbsp;
             <FaGithub id="icon" />
             &nbsp;&nbsp;&nbsp;
+            <SiExpress id="icon" />
+            &nbsp;&nbsp;&nbsp;
             <FaBootstrap id="icon" />
-
-
-            <div id="description-tech">
-              <p className="mt-3" >NodeJS, MySQL, Python, Git/Github, Bootstrap</p>
-            </div>
-          </div>
-
-        </div>
-        <div id="component" className="shadow">
-          <div>
-            <h3 className="fw-bold">{t("otherTech")}</h3>
-            <p>
-              {t("otherTechInfo")}
-            </p>
-            <FaJava id="icon" />
-            &nbsp;&nbsp;&nbsp;
-            <FaPhp id="icon" />
-            {/*&nbsp;&nbsp;&nbsp;
-            <FaAws id="icon" />
-            &nbsp;&nbsp;&nbsp;
-            <SiDocker id="icon" />*/}
             &nbsp;&nbsp;&nbsp;
             <FaReact id="icon" />
+            <></>
             <div id="description-tech">
-              <p className="mt-3" >Java, php, Docker, React</p>
+              <p className="mt-3" >NodeJS, MySQL, Python, Git/Github, Express.js, Bootstrap, React</p>
             </div>
-
           </div>
 
         </div>
+
       </div>
+      <h4 className="text-light pt-5 text-center">{t("other-technologies")}</h4>
+      <Marquee autoFill pauseOnHover className="w-75">
+        {skills.second.map((icon, i) => (
+          <div className="p-4" key={i}>{icon}</div>
+        ))}
+      </Marquee>
     </div>
   );
 }
