@@ -1,6 +1,6 @@
 body {
-    background: rgb(38,38,38);
-    background: radial-gradient(circle, rgb(30, 30, 30) 0%, rgba(0,0,0,1) 49%);
+    background: rgb(16, 16, 16);
+
 
 }
 /*.fast-presentation h1, h2, h1, #about-me h3{
@@ -33,4 +33,13 @@ h1{
     
 }
 
+#loader{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:white;
+}
 
