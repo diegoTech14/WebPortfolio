@@ -77,7 +77,7 @@ export function About({ t }) {
 
       </div>
       <h4 className="text-light pt-5 text-center">{t("other-technologies")}</h4>
-      <Marquee autoFill pauseOnHover className="w-75">
+      <Marquee autoFill pauseOnHover className="w-50" id="marquee">
         {skills.second.map((icon, i) => (
           <div className="p-4" key={i}>{icon}</div>
         ))}
