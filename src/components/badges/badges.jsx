@@ -18,7 +18,6 @@ export function Badges({t}) {
                     </p>
                 </div>
             </div>
-            <hr />
             <div id="cert">
                 <div id="badge">
                     <img src="./ciber.png" alt="" />
@@ -28,6 +27,18 @@ export function Badges({t}) {
                     <h5 id="issued">{t("ciberIssued")}</h5>
                     <p>
                         {t("ciberInfo")}
+                    </p>
+                </div>
+            </div>
+            <div id="cert">
+                <div id="badge">
+                    <img src="./badge-SFC.png" alt="" />
+                </div>
+                <div id="info-badge">
+                    <h2>{t("scrumTitle")}</h2>
+                    <h5 id="issued">{t("scrumIssued")}</h5>
+                    <p>
+                        {t("scrumInfo")}
                     </p>
                 </div>
             </div>
